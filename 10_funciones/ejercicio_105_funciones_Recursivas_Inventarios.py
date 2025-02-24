@@ -28,7 +28,7 @@ def agregar_producto(id, producto, precio, cantidad):
         'cantidad': cantidad
     }
     inventario.append(nuevo_producto)
-    print(f"Producto '{producto}' agregado correctamente.")
+    print(f"Producto '{nuevo_producto}' agregado correctamente.")
 
 def buscar_producto_por_id(id):
     for item in inventario:
