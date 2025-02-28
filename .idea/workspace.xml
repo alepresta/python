@@ -6,7 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="c76ea098-6212-4f27-b5c3-a5f5e2be9784" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/10_funciones/ejercicio_105_funciones_Recursivas_Inventarios.py" beforeDir="false" afterPath="$PROJECT_DIR$/10_funciones/ejercicio_105_funciones_Recursivas_Inventarios.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/10_funciones/ejercicio_106_funciones_Recursivas_Maquina_Snaks.py" beforeDir="false" afterPath="$PROJECT_DIR$/10_funciones/ejercicio_106_funciones_Recursivas_Maquina_Snaks.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/11_clases_objetos/110_clases_objetos.py" beforeDir="false" afterPath="$PROJECT_DIR$/11_clases_objetos/110_clases_objetos.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,30 +40,35 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Python.ee.executor&quot;: &quot;Run&quot;,
-    &quot;Python.ejercicio_0000*_mail.executor&quot;: &quot;Run&quot;,
-    &quot;Python.ejercicio_100_funciones.executor&quot;: &quot;Run&quot;,
-    &quot;Python.ejercicio_101_funciones_Par_o_Impar.executor&quot;: &quot;Run&quot;,
-    &quot;Python.ejercicio_102_funciones_Recursivas.executor&quot;: &quot;Debug&quot;,
-    &quot;Python.ejercicio_103_funciones_Recursivas_Factorial.executor&quot;: &quot;Run&quot;,
-    &quot;Python.ejercicio_104_funciones_Recursivas_Potencia.executor&quot;: &quot;Run&quot;,
-    &quot;Python.ejercicio_105_funciones_Recursivas_Inventarios.executor&quot;: &quot;Run&quot;,
-    &quot;Python.ejercicio_106_funciones_Recursivas_Maquina_Snaks.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/home/prestaa/Workspace/python/10_funciones&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Python.110_clases_objetos.executor": "Run",
+    "Python.111_clases_objetos_00.executor": "Run",
+    "Python.112_clases_objetos_aritmetica.executor": "Run",
+    "Python.ee.executor": "Run",
+    "Python.ejercicio_0000*_mail.executor": "Run",
+    "Python.ejercicio_100_funciones.executor": "Run",
+    "Python.ejercicio_101_funciones_Par_o_Impar.executor": "Run",
+    "Python.ejercicio_102_funciones_Recursivas.executor": "Debug",
+    "Python.ejercicio_103_funciones_Recursivas_Factorial.executor": "Run",
+    "Python.ejercicio_104_funciones_Recursivas_Potencia.executor": "Run",
+    "Python.ejercicio_105_funciones_Recursivas_Inventarios.executor": "Run",
+    "Python.ejercicio_106_funciones_Recursivas_Maquina_Snaks.executor": "Run",
+    "Python.ejercicio_108_funciones.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "/home/prestaa/Workspace/python/11_clases_objetos"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/11_clases_objetos" />
       <recent name="$PROJECT_DIR$/10_funciones" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.ejercicio_106_funciones_Recursivas_Maquina_Snaks">
-    <configuration name="ejercicio_102_funciones_Recursivas" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.112_clases_objetos_aritmetica">
+    <configuration name="110_clases_objetos" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="PythonProject" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -71,11 +77,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/10_funciones" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/11_clases_objetos" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/10_funciones/ejercicio_102_funciones_Recursivas.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/11_clases_objetos/110_clases_objetos.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -84,7 +90,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="ejercicio_103_funciones_Recursivas_Factorial" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="111_clases_objetos_00" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="PythonProject" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -93,11 +99,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/10_funciones" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/11_clases_objetos" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/10_funciones/ejercicio_103_funciones_Recursivas_Factorial.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/11_clases_objetos/111_clases_objetos_00.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -106,7 +112,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="ejercicio_104_funciones_Recursivas_Potencia" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="112_clases_objetos_aritmetica" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="PythonProject" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -115,33 +121,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/10_funciones" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/11_clases_objetos" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/10_funciones/ejercicio_104_funciones_Recursivas_Potencia.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="ejercicio_105_funciones_Recursivas_Inventarios" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="PythonProject" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/10_funciones" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/10_funciones/ejercicio_105_funciones_Recursivas_Inventarios.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/11_clases_objetos/112_clases_objetos_aritmetica.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -172,13 +156,35 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="ejercicio_108_funciones" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="PythonProject" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/10_funciones" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/10_funciones/ejercicio_108_funciones.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.112_clases_objetos_aritmetica" />
+        <item itemvalue="Python.111_clases_objetos_00" />
+        <item itemvalue="Python.110_clases_objetos" />
+        <item itemvalue="Python.ejercicio_108_funciones" />
         <item itemvalue="Python.ejercicio_106_funciones_Recursivas_Maquina_Snaks" />
-        <item itemvalue="Python.ejercicio_105_funciones_Recursivas_Inventarios" />
-        <item itemvalue="Python.ejercicio_104_funciones_Recursivas_Potencia" />
-        <item itemvalue="Python.ejercicio_103_funciones_Recursivas_Factorial" />
-        <item itemvalue="Python.ejercicio_102_funciones_Recursivas" />
       </list>
     </recent_temporary>
   </component>

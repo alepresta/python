@@ -1,16 +1,29 @@
-# This is a sample Python script.
+print('****************** CLASES Y OBJETOS ******************* ')
 
-# Press Mayús+F10 to execute it or replace it with your code.
-# Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
+class Persona:
+    def inicializar_persona(self,nombre,apellido):
+        self.nombre = nombre
+        self.apellido = apellido
+
+    def mostrar_persona(self):
+        print(self.nombre, self.apellido)
 
 
-def print_hi(name):
-    # Use a breakpoint in the code line below to debug your script.
-    print(f'Hi, {name}')  # Press Ctrl+F8 to toggle the breakpoint.
-
-
-# Press the green button in the gutter to run the script.
+# CREACIÓN DE OBJETOS
 if __name__ == '__main__':
-    print_hi('PyCharm')
+    persona1 = Persona()
+    persona1.inicializar_persona('Pepito', 'Acosta')
 
-# See PyCharm help at https://www.jetbrains.com/help/pycharm/
+    persona2 = Persona()
+    persona2.inicializar_persona('Juan', 'Gómez')
+
+    persona3 = Persona()
+    persona3.inicializar_persona('María', 'Pérez')
+
+    persona4 = Persona()
+    persona4.inicializar_persona('Carlos', 'López')
+
+    persona1.mostrar_persona()
+    persona2.mostrar_persona()
+    persona3.mostrar_persona()
+    persona4.mostrar_persona()
