@@ -2,9 +2,9 @@ print('****************** CLASES Y OBJETOS ******************* ')
 print('****************    ARITMÉTICA   ******************* ')
 
 class Aritmetica:
-    def __init__(self, operando1, operando2):
-        self.operando1 = int(operando1)
-        self.operando2 = int(operando2)
+    def __init__(self, operando1=None, operando2=None):
+        self.operando1 = operando1
+        self.operando2 = operando2
 
     def sumar(self):
         suma = self.operando1 + self.operando2
@@ -33,6 +33,8 @@ if __name__ == '__main__':
     operando2 = 7
     operando3 = 12
     operando4 = 16
+    operando5 = 10
+    operando6 = 100
 
 
     valores1 = Aritmetica(operando1,operando2)
@@ -46,4 +48,10 @@ if __name__ == '__main__':
     Aritmetica.restar(valores2)
     Aritmetica.dividir(valores2)
     Aritmetica.multiplicar(valores2)
-
+    print('-----------------------------')
+    valores3 = Aritmetica(operando5)
+    valores3.operando2 = 100
+    Aritmetica.multiplicar(valores3)
+    print('-----------------------------')
+    valores4 = Aritmetica(operando1=operando1,operando2=operando2)
+    Aritmetica.sumar(valores4)

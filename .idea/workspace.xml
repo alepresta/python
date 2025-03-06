@@ -6,8 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="c76ea098-6212-4f27-b5c3-a5f5e2be9784" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/10_funciones/ejercicio_106_funciones_Recursivas_Maquina_Snaks.py" beforeDir="false" afterPath="$PROJECT_DIR$/10_funciones/ejercicio_106_funciones_Recursivas_Maquina_Snaks.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/11_clases_objetos/110_clases_objetos.py" beforeDir="false" afterPath="$PROJECT_DIR$/11_clases_objetos/110_clases_objetos.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/11_clases_objetos/112_clases_objetos_aritmetica.py" beforeDir="false" afterPath="$PROJECT_DIR$/11_clases_objetos/112_clases_objetos_aritmetica.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,6 +44,8 @@
     "Python.110_clases_objetos.executor": "Run",
     "Python.111_clases_objetos_00.executor": "Run",
     "Python.112_clases_objetos_aritmetica.executor": "Run",
+    "Python.113_clases_objetos_aritmetica2.executor": "Run",
+    "Python.114_clases_objetos_encapsulamiento.executor": "Run",
     "Python.ee.executor": "Run",
     "Python.ejercicio_0000*_mail.executor": "Run",
     "Python.ejercicio_100_funciones.executor": "Run",
@@ -67,7 +68,7 @@
       <recent name="$PROJECT_DIR$/10_funciones" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.112_clases_objetos_aritmetica">
+  <component name="RunManager" selected="Python.114_clases_objetos_encapsulamiento">
     <configuration name="110_clases_objetos" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="PythonProject" />
       <option name="ENV_FILES" value="" />
@@ -134,7 +135,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="ejercicio_106_funciones_Recursivas_Maquina_Snaks" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="113_clases_objetos_aritmetica2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="PythonProject" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -143,11 +144,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/10_funciones" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/11_clases_objetos" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/10_funciones/ejercicio_106_funciones_Recursivas_Maquina_Snaks.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/11_clases_objetos/113_clases_objetos_aritmetica2.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -156,7 +157,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="ejercicio_108_funciones" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="114_clases_objetos_encapsulamiento" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="PythonProject" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -165,11 +166,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/10_funciones" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/11_clases_objetos" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/10_funciones/ejercicio_108_funciones.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/11_clases_objetos/114_clases_objetos_encapsulamiento.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -180,18 +181,18 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.114_clases_objetos_encapsulamiento" />
+        <item itemvalue="Python.113_clases_objetos_aritmetica2" />
         <item itemvalue="Python.112_clases_objetos_aritmetica" />
         <item itemvalue="Python.111_clases_objetos_00" />
         <item itemvalue="Python.110_clases_objetos" />
-        <item itemvalue="Python.ejercicio_108_funciones" />
-        <item itemvalue="Python.ejercicio_106_funciones_Recursivas_Maquina_Snaks" />
       </list>
     </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-python-sdk-1b1018131e27-aa17d162503b-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-243.22562.180" />
+        <option value="bundled-python-sdk-14705d77f0bb-aa17d162503b-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-243.25659.43" />
       </set>
     </attachedChunks>
   </component>
