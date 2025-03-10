@@ -25,19 +25,25 @@ class Coche:
         Modelo: {(self._modelo)}
         Color: {(self._color)}''')
 
-    def get_marca(self):
+    @property
+    def marca(self):
         return self._marca
-    def set_marca(self,marca):
+    @marca.setter
+    def marca(self,marca):
         self._marca = marca
 
-    def get_modelo(self):
+    @property
+    def modelo(self):
         return self._modelo
-    def set_model(self,modelo):
+    @modelo.setter
+    def modelo(self,modelo):
         self._modelo = modelo
 
-    def get_color(self):
+    @property
+    def color(self):
         return self._color
-    def set_color(self,color):
+    @color.setter
+    def color(self,color):
         self._color = color
 
 if __name__ == '__main__':
@@ -45,8 +51,11 @@ if __name__ == '__main__':
     coche2 = Coche('Toyota', 'Yaris','Azul')
     # coche2.conducir()
     coche1.conducir()
-    print(f'Marca: {coche1.get_marca()}')
-    coche1.set_marca('Fiat')
+    print(f'Marca: {coche1.marca}')
+    coche1.marca ='Fiat'
     print(f'Cambio de marca a Fiat:')
     coche1.conducir()
-
+    setattr(coche1,'nuevo_atributo','valor_nuevo_atributo')
+    print(coche1.nuevo_atributo)
+    print(coche1.__dict__)
+    print(coche2.__dict__)
