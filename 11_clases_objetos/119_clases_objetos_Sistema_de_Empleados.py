@@ -1,3 +1,5 @@
+from itertools import count
+
 print('****************** CLASES Y OBJETOS ******************* ')
 print('****************  SISTEMA EMPLEADOS  ****************** ')
 
@@ -27,7 +29,11 @@ class Empresa:
 
     def obtener_numero_empleados_por_departamento(self, departamento):
         # Cuenta cuántos empleados hay en un departamento específico
-        count = sum(1 for emp in self.empleados if emp.departamento == departamento)
+        #count = sum(1 for emp in self.empleados if emp.departamento == departamento)
+        count = 0
+        for emp in self.empleados:
+            if emp.departamento == departamento:
+                count += 1
         return count
 
 
