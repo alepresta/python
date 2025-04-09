@@ -6,7 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="c76ea098-6212-4f27-b5c3-a5f5e2be9784" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/11_clases_objetos/119_clases_objetos_Sistema_de_Empleados.py" beforeDir="false" afterPath="$PROJECT_DIR$/11_clases_objetos/119_clases_objetos_Sistema_de_Empleados.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/11_clases_objetos/119_clases_objetos_Sistema_de_Biblioteca.py" beforeDir="false" afterPath="$PROJECT_DIR$/11_clases_objetos/119_clases_objetos_Sistema_de_Biblioteca.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,35 +39,35 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Python.110_clases_objetos.executor": "Run",
-    "Python.111_clases_objetos_00.executor": "Run",
-    "Python.112_clases_objetos_aritmetica.executor": "Run",
-    "Python.113_clases_objetos_aritmetica2.executor": "Run",
-    "Python.114_clases_objetos_encapsulamiento.executor": "Run",
-    "Python.115_clases_objetos_encapsulamiento1.executor": "Run",
-    "Python.116_clases_objetos_encapsulamiento_operandos.executor": "Run",
-    "Python.117_clases_objetos_atributos_de_clase.executor": "Run",
-    "Python.118_clases_objetos_atributos_de_clase_contador_personas.executor": "Run",
-    "Python.119_clases_objetos_Sistema_de_Biblioteca.executor": "Run",
-    "Python.119_clases_objetos_Sistema_de_Empleados.executor": "Run",
-    "Python.ee.executor": "Run",
-    "Python.ejercicio_0000*_mail.executor": "Run",
-    "Python.ejercicio_100_funciones.executor": "Run",
-    "Python.ejercicio_101_funciones_Par_o_Impar.executor": "Run",
-    "Python.ejercicio_102_funciones_Recursivas.executor": "Debug",
-    "Python.ejercicio_103_funciones_Recursivas_Factorial.executor": "Run",
-    "Python.ejercicio_104_funciones_Recursivas_Potencia.executor": "Run",
-    "Python.ejercicio_105_funciones_Recursivas_Inventarios.executor": "Run",
-    "Python.ejercicio_106_funciones_Recursivas_Maquina_Snaks.executor": "Run",
-    "Python.ejercicio_108_funciones.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "/home/prestaa/Workspace/python/11_clases_objetos"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python.110_clases_objetos.executor&quot;: &quot;Run&quot;,
+    &quot;Python.111_clases_objetos_00.executor&quot;: &quot;Run&quot;,
+    &quot;Python.112_clases_objetos_aritmetica.executor&quot;: &quot;Run&quot;,
+    &quot;Python.113_clases_objetos_aritmetica2.executor&quot;: &quot;Run&quot;,
+    &quot;Python.114_clases_objetos_encapsulamiento.executor&quot;: &quot;Run&quot;,
+    &quot;Python.115_clases_objetos_encapsulamiento1.executor&quot;: &quot;Run&quot;,
+    &quot;Python.116_clases_objetos_encapsulamiento_operandos.executor&quot;: &quot;Run&quot;,
+    &quot;Python.117_clases_objetos_atributos_de_clase.executor&quot;: &quot;Run&quot;,
+    &quot;Python.118_clases_objetos_atributos_de_clase_contador_personas.executor&quot;: &quot;Run&quot;,
+    &quot;Python.119_clases_objetos_Sistema_de_Biblioteca.executor&quot;: &quot;Run&quot;,
+    &quot;Python.119_clases_objetos_Sistema_de_Empleados.executor&quot;: &quot;Run&quot;,
+    &quot;Python.ee.executor&quot;: &quot;Run&quot;,
+    &quot;Python.ejercicio_0000*_mail.executor&quot;: &quot;Run&quot;,
+    &quot;Python.ejercicio_100_funciones.executor&quot;: &quot;Run&quot;,
+    &quot;Python.ejercicio_101_funciones_Par_o_Impar.executor&quot;: &quot;Run&quot;,
+    &quot;Python.ejercicio_102_funciones_Recursivas.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.ejercicio_103_funciones_Recursivas_Factorial.executor&quot;: &quot;Run&quot;,
+    &quot;Python.ejercicio_104_funciones_Recursivas_Potencia.executor&quot;: &quot;Run&quot;,
+    &quot;Python.ejercicio_105_funciones_Recursivas_Inventarios.executor&quot;: &quot;Run&quot;,
+    &quot;Python.ejercicio_106_funciones_Recursivas_Maquina_Snaks.executor&quot;: &quot;Run&quot;,
+    &quot;Python.ejercicio_108_funciones.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/prestaa/Workspace/python/11_clases_objetos&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/11_clases_objetos" />
@@ -198,7 +198,7 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-python-sdk-14705d77f0bb-aa17d162503b-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-243.25659.43" />
+        <option value="bundled-python-sdk-4f4e415b4190-aa17d162503b-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-243.26053.29" />
       </set>
     </attachedChunks>
   </component>
