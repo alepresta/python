@@ -1,3 +1,1 @@
-Agregamos información al archivo
-Adiós!
-última línea\n
+Hello motoHola gatoHello motoHola gatoHello motoHola gatoHello moto

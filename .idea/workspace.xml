@@ -5,17 +5,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c76ea098-6212-4f27-b5c3-a5f5e2be9784" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/15_sobrecarga_operadores/Producto.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/13_herencia/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/16_manejo_excepciones/manejo_de_errores.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/15_sobrecarga_operadores/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/17_manejo_archivos/manejo_de_archivos.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_manejo_excepciones/main.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/17_manejo_archivos/main.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/17_manejo_archivos/leer_pdf.py" beforeDir="false" afterPath="$PROJECT_DIR$/17_manejo_archivos/leer_pdf.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/17_manejo_archivos/prueba.txt" beforeDir="false" afterPath="$PROJECT_DIR$/17_manejo_archivos/prueba.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/18_uso_with/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/18_uso_with/uso_de_with_00.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -77,11 +82,14 @@
     "Python.exepciones_personalizado.executor": "Run",
     "Python.leer_archivo.executor": "Run",
     "Python.leer_pdf.executor": "Run",
+    "Python.leer_pdf_01.executor": "Run",
     "Python.manejo_de_archivos.executor": "Run",
     "Python.manejo_de_archivos_001.executor": "Run",
     "Python.manejo_de_errores.executor": "Run",
     "Python.sobrecarga_de_operadores.executor": "Run",
+    "Python.test_catalogo_peliculas.executor": "Run",
     "Python.test_figura_geometrica.executor": "Run",
+    "Python.uso_de_with_00.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "main",
@@ -96,30 +104,11 @@
       <recent name="$PROJECT_DIR$/11_clases_objetos" />
       <recent name="$PROJECT_DIR$/10_funciones" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
   </component>
-  <component name="RunManager" selected="Python.leer_pdf">
-    <configuration name="exepciones_personalizado" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="PythonProject" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/16_manejo_excepciones" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/16_manejo_excepciones/exepciones_personalizado.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.test_catalogo_peliculas">
     <configuration name="leer_archivo" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="PythonProject" />
       <option name="ENV_FILES" value="" />
@@ -164,7 +153,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="manejo_de_archivos" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="leer_pdf_01" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="PythonProject" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -177,7 +166,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/17_manejo_archivos/manejo_de_archivos.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/17_manejo_archivos/leer_pdf_01.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -186,7 +175,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="manejo_de_archivos_001" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="test_catalogo_peliculas" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="PythonProject" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -195,11 +184,33 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/17_manejo_archivos" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/18_zcatalogo_peliculas" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/17_manejo_archivos/manejo_de_archivos_001.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/18_zcatalogo_peliculas/test_catalogo_peliculas.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="uso_de_with_00" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="PythonProject" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/18_uso_with" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/18_uso_with/uso_de_with_00.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -210,11 +221,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.test_catalogo_peliculas" />
+        <item itemvalue="Python.uso_de_with_00" />
+        <item itemvalue="Python.leer_pdf_01" />
         <item itemvalue="Python.leer_pdf" />
         <item itemvalue="Python.leer_archivo" />
-        <item itemvalue="Python.manejo_de_archivos_001" />
-        <item itemvalue="Python.manejo_de_archivos" />
-        <item itemvalue="Python.exepciones_personalizado" />
       </list>
     </recent_temporary>
   </component>

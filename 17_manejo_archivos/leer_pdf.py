@@ -1,5 +1,3 @@
-from pypdf import PdfReader
-
 print('************************** Clase Manejo de archivos ***************************')
 
 class ManejoArchivos:
