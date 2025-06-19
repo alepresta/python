@@ -3,10 +3,10 @@ from Pelicula import Pelicula
 
 def mostrar_menu():
     print('\n   Catalogo de peliculas   '.center(40, '-'))
-    print('(1) Agregar película'.center(40, ' '))
-    print('(2) Listar películas'.center(40, ' '))
+    print('(1) Agregar película '.center(40, ' '))
+    print('(2) Listar películas '.center(40, ' '))
     print('(3) Eliminar catálogo'.center(40, ' '))
-    print('(4) Salir'.center(40, ' '))
+    print('(4) Salir            '.center(40, ' '))
     print(''.center(40, '-'))
 
 def main():

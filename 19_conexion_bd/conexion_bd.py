@@ -1,0 +1,1 @@
+print(f' Conexión bd '.center(60,"-"))

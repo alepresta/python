@@ -1,6 +1,4 @@
 from ManejoMisDatos import ManejoMisDatos
-
-
 class CatalogoPeliculas:
     def __init__(self, ruta_archivo):
         self.ruta_archivo = ruta_archivo
@@ -20,6 +18,7 @@ class CatalogoPeliculas:
         import os
         try:
             os.remove(self.ruta_archivo)
+            print(f'Archivo eliminado {self.ruta_archivo}')
             return True
         except FileNotFoundError:
             return False

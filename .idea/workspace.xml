@@ -5,10 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c76ea098-6212-4f27-b5c3-a5f5e2be9784" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/20_conexion_bd_postgresql/conexion_bd.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/17_manejo_archivos/leer_pdf.py" beforeDir="false" afterPath="$PROJECT_DIR$/17_manejo_archivos/leer_pdf.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/17_manejo_archivos/prueba.txt" beforeDir="false" afterPath="$PROJECT_DIR$/17_manejo_archivos/prueba.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/18_uso_with/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/18_uso_with/uso_de_with_00.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/18_zcatalogo_peliculas/CatalogoPeliculas.py" beforeDir="false" afterPath="$PROJECT_DIR$/18_zcatalogo_peliculas/CatalogoPeliculas.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/18_zcatalogo_peliculas/test_catalogo_peliculas.py" beforeDir="false" afterPath="$PROJECT_DIR$/18_zcatalogo_peliculas/test_catalogo_peliculas.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/19_conexion_bd/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/19_conexion_bd/conexion_bd.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/20_conexion_bd_postgresql/main.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,9 +68,15 @@
     "Python.132_Polimorfismo_animal.executor": "Debug",
     "Python.133_Clase_OBJECT.executor": "Run",
     "Python.134_Ejercicio_compu.executor": "Run",
+    "Python.CatalogoPeliculas.executor": "Run",
     "Python.Cuadrado.executor": "Run",
     "Python.FiguraGeometrica.executor": "Run",
     "Python.Sobrecarga_op.executor": "Run",
+    "Python.conexion_BD.executor": "Run",
+    "Python.conexion_bd (1).executor": "Run",
+    "Python.conexion_bd.executor": "Run",
+    "Python.conexion_with.executor": "Run",
+    "Python.conexion_with_01.executor": "Run",
     "Python.ee.executor": "Run",
     "Python.ejercicio_0000*_mail.executor": "Run",
     "Python.ejercicio_100_funciones.executor": "Run",
@@ -93,23 +101,23 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "/home/prestaa/Workspace/python/17_manejo_archivos"
+    "last_opened_file_path": "/home/prestaa/Workspace/python/20_conexion_bd_postgresql"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/20_conexion_bd_postgresql" />
       <recent name="$PROJECT_DIR$/17_manejo_archivos" />
       <recent name="$PROJECT_DIR$/16_manejo_excepciones" />
       <recent name="$PROJECT_DIR$/13_herencia" />
       <recent name="$PROJECT_DIR$/11_clases_objetos" />
-      <recent name="$PROJECT_DIR$/10_funciones" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.test_catalogo_peliculas">
-    <configuration name="leer_archivo" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.conexion_with_01">
+    <configuration name="conexion_bd (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="PythonProject" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -118,11 +126,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/17_manejo_archivos" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/20_conexion_bd_postgresql" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/17_manejo_archivos/leer_archivo.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/20_conexion_bd_postgresql/conexion_bd.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -131,7 +139,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="leer_pdf" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="conexion_bd" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="PythonProject" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -140,11 +148,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/17_manejo_archivos" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/19_conexion_bd" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/17_manejo_archivos/leer_pdf.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/19_conexion_bd/conexion_bd.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -153,7 +161,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="leer_pdf_01" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="conexion_bd" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="PythonProject" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -162,11 +170,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/17_manejo_archivos" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/20_conexion_bd_postgresql" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/17_manejo_archivos/leer_pdf_01.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/20_conexion_bd_postgresql/conexion_bd.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -175,7 +183,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="test_catalogo_peliculas" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="conexion_with" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="PythonProject" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -184,11 +192,33 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/18_zcatalogo_peliculas" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/20_conexion_bd_postgresql" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/18_zcatalogo_peliculas/test_catalogo_peliculas.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/20_conexion_bd_postgresql/conexion_with.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="conexion_with_01" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="PythonProject" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/20_conexion_bd_postgresql" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/20_conexion_bd_postgresql/conexion_with_01.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -221,18 +251,18 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.test_catalogo_peliculas" />
-        <item itemvalue="Python.uso_de_with_00" />
-        <item itemvalue="Python.leer_pdf_01" />
-        <item itemvalue="Python.leer_pdf" />
-        <item itemvalue="Python.leer_archivo" />
+        <item itemvalue="Python.conexion_with_01" />
+        <item itemvalue="Python.conexion_with" />
+        <item itemvalue="Python.conexion_bd (1)" />
+        <item itemvalue="Python.conexion_bd" />
+        <item itemvalue="Python.conexion_bd" />
       </list>
     </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-python-sdk-dfff61a61320-9cdd278e9d02-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-251.25410.159" />
+        <option value="bundled-python-sdk-53e2683a6804-9cdd278e9d02-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-251.26094.141" />
       </set>
     </attachedChunks>
   </component>
