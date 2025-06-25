@@ -5,12 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c76ea098-6212-4f27-b5c3-a5f5e2be9784" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/20_conexion_bd_postgresql/conexion_bd.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/23_creacion_capa_datos/ejemplo_uso.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/18_zcatalogo_peliculas/CatalogoPeliculas.py" beforeDir="false" afterPath="$PROJECT_DIR$/18_zcatalogo_peliculas/CatalogoPeliculas.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/18_zcatalogo_peliculas/test_catalogo_peliculas.py" beforeDir="false" afterPath="$PROJECT_DIR$/18_zcatalogo_peliculas/test_catalogo_peliculas.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/19_conexion_bd/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/19_conexion_bd/conexion_bd.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/20_conexion_bd_postgresql/main.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/12_POO/main.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/14_calses_abstractas/main.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/20_conexion_bd_postgresql/conexion_with_01.py" beforeDir="false" afterPath="$PROJECT_DIR$/20_conexion_bd_postgresql/conexion_with_01.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/21_uso_de_python_postgresql/main.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/22_manejo_transacciones/main.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/23_creacion_capa_datos/main.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,12 +74,22 @@
     "Python.Cuadrado.executor": "Run",
     "Python.FiguraGeometrica.executor": "Run",
     "Python.Sobrecarga_op.executor": "Run",
+    "Python.conexion.executor": "Run",
     "Python.conexion_BD.executor": "Run",
     "Python.conexion_bd (1).executor": "Run",
     "Python.conexion_bd.executor": "Run",
     "Python.conexion_with.executor": "Run",
     "Python.conexion_with_01.executor": "Run",
+    "Python.conexion_with_02.executor": "Run",
+    "Python.conexion_with_03_varios_valores.executor": "Run",
+    "Python.conexion_with_04_varios_valores_actualizar.executor": "Run",
+    "Python.conexion_with_05_varios_valores_actualizar_varios.executor": "Run",
+    "Python.conexion_with_06_ELIMINAR.executor": "Run",
+    "Python.conexion_with_07_ELIMINAR_varios.executor": "Run",
+    "Python.conexion_with_08_TRANSACCIONES.executor": "Run",
+    "Python.conexion_with_09_TRANSACCIONES.executor": "Run",
     "Python.ee.executor": "Run",
+    "Python.ejemplo_uso.executor": "Run",
     "Python.ejercicio_0000*_mail.executor": "Run",
     "Python.ejercicio_100_funciones.executor": "Run",
     "Python.ejercicio_101_funciones_Par_o_Impar.executor": "Run",
@@ -113,11 +125,36 @@
       <recent name="$PROJECT_DIR$/11_clases_objetos" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/23_creacion_capa_datos" />
+      <recent name="$PROJECT_DIR$/23_creacion_capa_datos/dao" />
+      <recent name="$PROJECT_DIR$/23_creacion_capa_datos/modelos" />
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.conexion_with_01">
-    <configuration name="conexion_bd (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.ejemplo_uso">
+    <configuration name="conexion" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="PythonProject" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/23_creacion_capa_datos" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/23_creacion_capa_datos/conexion.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="conexion_with_07_ELIMINAR_varios" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="PythonProject" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -130,7 +167,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/20_conexion_bd_postgresql/conexion_bd.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/20_conexion_bd_postgresql/conexion_with_07_ELIMINAR_varios.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -139,29 +176,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="conexion_bd" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="PythonProject" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/19_conexion_bd" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/19_conexion_bd/conexion_bd.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="conexion_bd" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="conexion_with_08_TRANSACCIONES" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="PythonProject" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -174,7 +189,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/20_conexion_bd_postgresql/conexion_bd.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/20_conexion_bd_postgresql/conexion_with_08_TRANSACCIONES.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -183,7 +198,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="conexion_with" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="conexion_with_09_TRANSACCIONES" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="PythonProject" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -196,7 +211,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/20_conexion_bd_postgresql/conexion_with.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/20_conexion_bd_postgresql/conexion_with_09_TRANSACCIONES.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -205,7 +220,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="conexion_with_01" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="ejemplo_uso" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="PythonProject" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -214,33 +229,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/20_conexion_bd_postgresql" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/23_creacion_capa_datos" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/20_conexion_bd_postgresql/conexion_with_01.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="uso_de_with_00" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="PythonProject" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/18_uso_with" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/18_uso_with/uso_de_with_00.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/23_creacion_capa_datos/ejemplo_uso.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -251,11 +244,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.conexion_with_01" />
-        <item itemvalue="Python.conexion_with" />
-        <item itemvalue="Python.conexion_bd (1)" />
-        <item itemvalue="Python.conexion_bd" />
-        <item itemvalue="Python.conexion_bd" />
+        <item itemvalue="Python.ejemplo_uso" />
+        <item itemvalue="Python.conexion" />
+        <item itemvalue="Python.conexion_with_09_TRANSACCIONES" />
+        <item itemvalue="Python.conexion_with_08_TRANSACCIONES" />
+        <item itemvalue="Python.conexion_with_07_ELIMINAR_varios" />
       </list>
     </recent_temporary>
   </component>

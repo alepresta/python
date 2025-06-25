@@ -6,13 +6,13 @@ conexion = psycopg2.connect(user='apresta',password='miamigodardo1pa',host= '85.
 try:
     with conexion:
         with conexion.cursor() as cursor:
-            sentencia = 'SELECT * FROM persona WHERE id_persona IN %s'
-            entrada = input(f'Proporciona ids a buscar (separado por comas) = > ')
-            llaves_primarias = (tuple(entrada.split(',')),)
-            cursor.execute(sentencia, llaves_primarias)
-            registros = cursor.fetchall()
-            for registro in registros:
-                print(registro)
+            sentencia = 'DELETE FROM persona WHERE id_persona = %s'
+            entrada = input(f'Ingrese el ID a eliminar:   ')
+            valores = (entrada,)
+            cursor.execute(sentencia,valores)
+            registros_eliminados = cursor.rowcount
+            print(f'Registros Eliminados en la tabla test_db: ({registros_eliminados})')
+
 except Exception as e:
     print(f'Ocurrio un error: {e}')  # Es útil mostrar el error real
 finally:

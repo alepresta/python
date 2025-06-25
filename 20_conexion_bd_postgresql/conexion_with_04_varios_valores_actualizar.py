@@ -6,13 +6,12 @@ conexion = psycopg2.connect(user='apresta',password='miamigodardo1pa',host= '85.
 try:
     with conexion:
         with conexion.cursor() as cursor:
-            sentencia = 'SELECT * FROM persona WHERE id_persona IN %s'
-            entrada = input(f'Proporciona ids a buscar (separado por comas) = > ')
-            llaves_primarias = (tuple(entrada.split(',')),)
-            cursor.execute(sentencia, llaves_primarias)
-            registros = cursor.fetchall()
-            for registro in registros:
-                print(registro)
+            sentencia = 'UPDATE persona SET nombre = %s, apellido = %s , email = %s WHERE id_persona = %s'
+            valores = ('Juan Carlos', 'Juarez', 'jcjuarez@email.com',1)
+            cursor.execute(sentencia,valores)
+            registros_actualizados = cursor.rowcount
+            print(f'Registros actualizados en la tabla test_db: ({registros_actualizados})')
+
 except Exception as e:
     print(f'Ocurrio un error: {e}')  # Es útil mostrar el error real
 finally:
