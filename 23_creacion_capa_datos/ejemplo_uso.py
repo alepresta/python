@@ -1,109 +1,55 @@
-from conexion import Conexion
-from persona import Persona
+from generar_personas_ficticias import GeneradorPersonasCompleto
 from persona_dao import PersonaDAO
-import random
+from persona import Persona  # <-- Esta importación faltaba
+import config_db
+import logging
 
-# Configuración de conexión
-config_db = {
-    'database': 'test_db',
-    'username': 'apresta',
-    'password': 'miamigodardo1pa',
-    'db_port': '5432',
-    'host': '85.31.224.145'
-}
-
-
-def generar_personas_ficticias(cantidad=30):
-    """Genera una lista de personas con datos ficticios"""
-    nombres_comunes = [
-        'Juan', 'María', 'Carlos', 'Ana', 'Luis', 'Laura', 'Pedro', 'Sofía',
-        'Diego', 'Isabel', 'Jorge', 'Lucía', 'Fernando', 'Valentina', 'Ricardo',
-        'Camila', 'Miguel', 'Daniela', 'José', 'Gabriela', 'Andrés', 'Paula',
-        'Francisco', 'Alejandra', 'Antonio', 'Adriana', 'Roberto', 'Natalia',
-        'Raúl', 'Verónica'
-    ]
-
-    apellidos_comunes = [
-        'García', 'Rodríguez', 'González', 'Fernández', 'López', 'Martínez',
-        'Sánchez', 'Pérez', 'Gómez', 'Martín', 'Jiménez', 'Ruiz', 'Hernández',
-        'Díaz', 'Moreno', 'Álvarez', 'Muñoz', 'Romero', 'Alonso', 'Gutiérrez',
-        'Navarro', 'Torres', 'Domínguez', 'Vázquez', 'Ramos', 'Gil', 'Ramírez',
-        'Serrano', 'Blanco', 'Suárez'
-    ]
-
-    ciudades = ['Madrid', 'Barcelona', 'Valencia', 'Sevilla', 'Zaragoza', 'Málaga',
-                'Murcia', 'Palma', 'Bilbao', 'Alicante', 'Córdoba', 'Valladolid']
-
-    dominios = ['gmail.com', 'hotmail.com', 'yahoo.com', 'outlook.com', 'protonmail.com']
-
-    personas = []
-    for i in range(cantidad):
-        nombre = random.choice(nombres_comunes)
-        apellido = random.choice(apellidos_comunes)
-        email = f"{nombre.lower()}.{apellido.lower()}{random.randint(10, 99)}@{random.choice(dominios)}"
-        personas.append(Persona(nombre=nombre, apellido=apellido, email=email))
-
-    return personas
-
-
-def mostrar_personas():
-    """Muestra todas las personas en la base de datos"""
-    print("\nListado actual de personas:")
-    personas = PersonaDAO.seleccionar()
-    if personas:
-        for persona in personas:
-            print(persona)
-    else:
-        print("No hay personas registradas")
-    print(f"Total registros: {len(personas)}")
+logging.basicConfig(level=logging.INFO)
+logger = logging.getLogger(__name__)
 
 
 def main():
-    try:
-        # 1. Establecer conexión
-        conexion = Conexion.obtener_conexion(config_db)
-        print("Conexión establecida correctamente")
+    generador = GeneradorPersonasCompleto(db_config=config_db.DATABASE)
 
-        # 2. Insertar 30 personas ficticias
-        print("\nInsertando personas ficticias...")
-        personas = generar_personas_ficticias(30)
+    # Ejemplo 1: Generar 5 personas automáticamente y guardar en DB
+    logger.info("Generando 5 personas automáticamente...")
+    personas_auto = generador.generar_personas(5, insertar_db=True)
+    for p in personas_auto:
+        logger.info(f"Generada: {p}")
 
-        for persona in personas:
-            try:
-                PersonaDAO.insertar(persona)
-                print(f"Insertado: {persona.nombre} {persona.apellido}")
-            except Exception as e:
-                print(f"Error insertando {persona.nombre}: {e}")
+    # Ejemplo 2: Generar persona manualmente
+    logger.info("\nGenerando persona manualmente...")
+    persona_manual = generador.generar_persona()
+    persona_manual.nombre = "Juan"
+    persona_manual.apellido = "Pérez"
+    persona_manual.email = "juan.perez@example.com"
+    persona_insertada = PersonaDAO.insertar(persona_manual)
+    logger.info(f"Persona manual insertada: {persona_insertada}")
 
-        # Mostrar estado actual
-        mostrar_personas()
+    # Ejemplo 3: Generar persona con algunos datos manuales y otros automáticos
+    logger.info("\nGenerando persona semi-automática...")
+    persona_semi = generador.generar_persona()
+    persona_semi.nombre = "María"
+    persona_semi.apellido = "González"
+    persona_insertada = PersonaDAO.insertar(persona_semi)
+    logger.info(f"Persona semi-automática: {persona_insertada}")
 
-        # 3. Operaciones adicionales de ejemplo
-        if personas:
-            # Actualizar la primera persona
-            print("\nActualizando primera persona...")
-            todas_personas = PersonaDAO.seleccionar()
-            if todas_personas:
-                primera_persona = todas_personas[0]
-                ciudad = random.choice(['Madrid', 'Barcelona', 'Valencia', 'Sevilla'])
-                primera_persona.nombre = f"{primera_persona.nombre} (de {ciudad})"
-                if PersonaDAO.actualizar(primera_persona):
-                    print(f"Actualizado: {primera_persona.nombre}")
+    # Ejemplo 4: Borrar un registro por ID
+    logger.info("\nProbando eliminación...")
+    if personas_auto:
+        id_a_eliminar = personas_auto[0].id_persona
+        logger.info(f"Eliminando persona con ID: {id_a_eliminar}")
+        persona_a_eliminar = Persona(id_persona=id_a_eliminar)
+        if PersonaDAO.eliminar(persona_a_eliminar):
+            logger.info("Persona eliminada exitosamente")
+        else:
+            logger.error("No se pudo eliminar la persona")
 
-                # Eliminar 5 personas aleatorias
-                print("\nEliminando 5 personas aleatorias...")
-                for persona in random.sample(todas_personas, min(5, len(todas_personas))):
-                    if PersonaDAO.eliminar(persona.id_persona):
-                        print(f"Eliminado: {persona.nombre} {persona.apellido}")
-
-                # Mostrar estado final
-                mostrar_personas()
-
-    except Exception as e:
-        print(f"\nERROR: {e}")
-    finally:
-        Conexion.cerrar()
-        print("\nConexión cerrada")
+    # Ejemplo 5: Listar todas las personas
+    logger.info("\nListado completo de personas:")
+    personas = PersonaDAO.seleccionar()
+    for p in personas:
+        logger.info(p)
 
 
 if __name__ == "__main__":
