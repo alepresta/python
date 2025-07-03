@@ -4503,3 +4503,28 @@ Resumen final:
 03:55:48 PM: INFO: [ejemplo_uso.py:64] - Personas insertadas en DB: 10
 03:55:48 PM: INFO: [ejemplo_uso.py:65] - Archivo JSON generado: /home/prestaa/Workspace/python/23_creacion_capa_datos/datos_generados/personas_20250630_155541.json
 03:55:48 PM: INFO: [ejemplo_uso.py:68] Conexión a DB cerrada. Proceso completado.
+2025-07-03 09:46:05: INFO: [ejemplo_uso.py:10] Inicio del sistema
+2025-07-03 09:47:58: INFO: [ejemplo_uso.py:10] Inicio del sistema
+2025-07-03 09:48:44: INFO: [ejemplo_uso.py:10] Inicio del sistema
+2025-07-03 09:54:33: ERROR: [ejemplo_uso.py:20] Error inesperado: invalid input syntax for type date: "None"
+LINE 1: ...ez@example.com', cuit='', sexo='', dni='', cumple='None', pa...
+                                                             ^
+
+2025-07-03 09:54:53: INFO: [ejemplo_uso.py:10] Inicio del sistema
+2025-07-03 09:55:47: ERROR: [ejemplo_uso.py:20] Error inesperado: invalid input syntax for type date: "None"
+LINE 1: ...ez@example.com', cuit='', sexo='', dni='', cumple='None', pa...
+                                                             ^
+
+2025-07-03 09:58:16: INFO: [ejemplo_uso.py:10] Inicio del sistema
+2025-07-03 09:59:11: ERROR: [ejemplo_uso.py:20] Error inesperado: invalid input syntax for type date: "        while True:"
+LINE 1: ...(self, mensaje, tipo=str, default=None):', cumple='        w...
+                                                             ^
+
+2025-07-03 09:59:17: INFO: [ejemplo_uso.py:10] Inicio del sistema
+2025-07-03 10:01:22: INFO: [ejemplo_uso.py:10] Inicio del sistema
+2025-07-03 10:02:48: ERROR: [ejemplo_uso.py:20] Error inesperado: invalid input syntax for type time: "55"
+LINE 1: ...odigoReserva='5465465', fecha='1/1/1999', horario='55', tram...
+                                                             ^
+
+2025-07-03 10:03:17: INFO: [ejemplo_uso.py:10] Inicio del sistema
+2025-07-03 10:19:21: INFO: [ejemplo_uso.py:10] Inicio del sistema

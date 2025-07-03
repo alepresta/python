@@ -1,0 +1,6 @@
+2025-07-02 15:29:48,228 - root - ERROR - Error inesperado: name 'GeneradorPersonasCompleto' is not defined
+2025-07-02 15:31:50,216 - root - ERROR - Error inesperado: name 'GeneradorPersonasCompleto' is not defined
+2025-07-02 15:52:04,894 - root - ERROR - Error inesperado: 'SistemaGestionPersonas' object has no attribute 'conectar_db'
+2025-07-02 15:55:52,016 - root - ERROR - Error inesperado: 'SistemaGestionPersonas' object has no attribute '_verificar_conexion'
+2025-07-02 16:08:22,578 - root - ERROR - Error inesperado: 'SistemaGestionPersonas' object has no attribute 'conectar_db'
+2025-07-02 16:08:29,382 - root - ERROR - Error inesperado: 'SistemaGestionPersonas' object has no attribute '_verificar_conexion'

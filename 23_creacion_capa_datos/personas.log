@@ -1,0 +1,66 @@
+2025-07-02 15:02:15,255 - __main__ - INFO - Generando 10 personas automáticamente...
+2025-07-02 15:02:15,255 - generar_personas_ficticias - INFO - Generando 10 personas ficticias...
+2025-07-02 15:02:16,617 - conexion - INFO - Conexión a la base de datos establecida
+2025-07-02 15:02:17,157 - persona_dao - INFO - Persona insertada: Persona(id=2243, nombre=Sasha, apellido=Uribe, email=suribe@yahoo.com, dni=38392908)
+2025-07-02 15:02:17,157 - conexion - INFO - Conexión cerrada
+2025-07-02 15:02:17,157 - conexion - INFO - Conexión cerrada
+2025-07-02 15:02:18,399 - conexion - INFO - Conexión a la base de datos establecida
+2025-07-02 15:02:18,929 - persona_dao - INFO - Persona insertada: Persona(id=2244, nombre=Blanca, apellido=Macías, email=blancam@hotmail.com, dni=34476049)
+2025-07-02 15:02:18,929 - conexion - INFO - Conexión cerrada
+2025-07-02 15:02:18,929 - conexion - INFO - Conexión cerrada
+2025-07-02 15:02:20,216 - conexion - INFO - Conexión a la base de datos establecida
+2025-07-02 15:02:20,762 - persona_dao - INFO - Persona insertada: Persona(id=2245, nombre=Xavier, apellido=Lara, email=xavier13@empresa.com, dni=38820363)
+2025-07-02 15:02:20,763 - conexion - INFO - Conexión cerrada
+2025-07-02 15:02:20,763 - conexion - INFO - Conexión cerrada
+2025-07-02 15:02:22,044 - conexion - INFO - Conexión a la base de datos establecida
+2025-07-02 15:02:22,592 - persona_dao - INFO - Persona insertada: Persona(id=2246, nombre=Gwen, apellido=Toledo, email=gwen35@outlook.com, dni=20338655)
+2025-07-02 15:02:22,592 - conexion - INFO - Conexión cerrada
+2025-07-02 15:02:22,592 - conexion - INFO - Conexión cerrada
+2025-07-02 15:02:23,853 - conexion - INFO - Conexión a la base de datos establecida
+2025-07-02 15:02:24,383 - persona_dao - INFO - Persona insertada: Persona(id=2247, nombre=Dacio, apellido=Collado, email=collado66@hotmail.com, dni=35514638)
+2025-07-02 15:02:24,383 - conexion - INFO - Conexión cerrada
+2025-07-02 15:02:24,383 - conexion - INFO - Conexión cerrada
+2025-07-02 15:02:25,674 - conexion - INFO - Conexión a la base de datos establecida
+2025-07-02 15:02:26,218 - persona_dao - INFO - Persona insertada: Persona(id=2248, nombre=Eustaquio, apellido=Enríquez, email=enríquez48@gmail.com, dni=29198366)
+2025-07-02 15:02:26,219 - conexion - INFO - Conexión cerrada
+2025-07-02 15:02:26,219 - conexion - INFO - Conexión cerrada
+2025-07-02 15:02:27,493 - conexion - INFO - Conexión a la base de datos establecida
+2025-07-02 15:02:28,030 - persona_dao - INFO - Persona insertada: Persona(id=2249, nombre=Goyo, apellido=Iñiguez, email=iñiguez66@gmail.com, dni=26442061)
+2025-07-02 15:02:28,031 - conexion - INFO - Conexión cerrada
+2025-07-02 15:02:28,031 - conexion - INFO - Conexión cerrada
+2025-07-02 15:02:29,310 - conexion - INFO - Conexión a la base de datos establecida
+2025-07-02 15:02:29,851 - persona_dao - INFO - Persona insertada: Persona(id=2250, nombre=Felicísimo, apellido=Villanueva, email=fvillanueva@gmail.com, dni=34169504)
+2025-07-02 15:02:29,852 - conexion - INFO - Conexión cerrada
+2025-07-02 15:02:29,852 - conexion - INFO - Conexión cerrada
+2025-07-02 15:02:31,144 - conexion - INFO - Conexión a la base de datos establecida
+2025-07-02 15:02:31,689 - persona_dao - INFO - Persona insertada: Persona(id=2251, nombre=Hazael, apellido=Briseño, email=hazael17@outlook.com, dni=33312731)
+2025-07-02 15:02:31,689 - conexion - INFO - Conexión cerrada
+2025-07-02 15:02:31,689 - conexion - INFO - Conexión cerrada
+2025-07-02 15:02:32,942 - conexion - INFO - Conexión a la base de datos establecida
+2025-07-02 15:02:33,471 - persona_dao - INFO - Persona insertada: Persona(id=2252, nombre=Mercedes, apellido=Urrutia, email=mercedesu@yahoo.com, dni=35206344)
+2025-07-02 15:02:33,472 - conexion - INFO - Conexión cerrada
+2025-07-02 15:02:33,472 - conexion - INFO - Conexión cerrada
+2025-07-02 15:02:33,474 - generar_personas_ficticias - INFO - Últimas 10 personas guardadas en /home/prestaa/Workspace/python/23_creacion_capa_datos/datos_generados/ultimas_personas.json
+2025-07-02 15:02:33,474 - __main__ - INFO - 
+Se generaron 10 personas:
+2025-07-02 15:02:33,474 - __main__ - INFO -   - Persona(id=2243, nombre=Sasha, apellido=Uribe, email=suribe@yahoo.com, dni=38392908)
+2025-07-02 15:02:33,474 - __main__ - INFO -   - Persona(id=2244, nombre=Blanca, apellido=Macías, email=blancam@hotmail.com, dni=34476049)
+2025-07-02 15:02:33,474 - __main__ - INFO -   - Persona(id=2245, nombre=Xavier, apellido=Lara, email=xavier13@empresa.com, dni=38820363)
+2025-07-02 15:02:33,475 - __main__ - INFO -   - Persona(id=2246, nombre=Gwen, apellido=Toledo, email=gwen35@outlook.com, dni=20338655)
+2025-07-02 15:02:33,475 - __main__ - INFO -   - Persona(id=2247, nombre=Dacio, apellido=Collado, email=collado66@hotmail.com, dni=35514638)
+2025-07-02 15:02:33,475 - __main__ - INFO -   - Persona(id=2248, nombre=Eustaquio, apellido=Enríquez, email=enríquez48@gmail.com, dni=29198366)
+2025-07-02 15:02:33,475 - __main__ - INFO -   - Persona(id=2249, nombre=Goyo, apellido=Iñiguez, email=iñiguez66@gmail.com, dni=26442061)
+2025-07-02 15:02:33,475 - __main__ - INFO -   - Persona(id=2250, nombre=Felicísimo, apellido=Villanueva, email=fvillanueva@gmail.com, dni=34169504)
+2025-07-02 15:02:33,475 - __main__ - INFO -   - Persona(id=2251, nombre=Hazael, apellido=Briseño, email=hazael17@outlook.com, dni=33312731)
+2025-07-02 15:02:33,475 - __main__ - INFO -   - Persona(id=2252, nombre=Mercedes, apellido=Urrutia, email=mercedesu@yahoo.com, dni=35206344)
+2025-07-02 15:02:41,393 - __main__ - INFO - 
+Creación manual de persona:
+2025-07-02 15:06:28,803 - conexion - INFO - Conexión a la base de datos establecida
+2025-07-02 15:06:29,331 - persona_dao - INFO - Persona insertada: Persona(id=2253, nombre=Alejandro, presta, apellido=Presta, email=apresta@gmail.com, dni=38353232)
+2025-07-02 15:06:29,332 - conexion - INFO - Conexión cerrada
+2025-07-02 15:06:29,332 - conexion - INFO - Conexión cerrada
+2025-07-02 15:06:29,332 - __main__ - INFO - 
+Persona creada exitosamente:
+Persona(id=2253, nombre=Alejandro, presta, apellido=Presta, email=apresta@gmail.com, dni=38353232)
+2025-07-02 15:20:01,897 - __main__ - INFO - 
+Aplicación interrumpida por el usuario
