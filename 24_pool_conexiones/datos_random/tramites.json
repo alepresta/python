@@ -1,0 +1,32 @@
+[
+  [2308, "Argentine Consulate", "qa"],
+  [2306, "Argentine ConsulateN", "qa"],
+  [2314, "Número de trámite", "qa"],
+  [655, "Prueba Bs AS", "qa"],
+  [653, "Prueba C.A.B.A", "qa"],
+  [652, "Prueba Nacional CUIT", "qa"],
+  [650, "Prueba Nacional Pasaporte", "qa"],
+  [658, "Prueba Norte", "qa"],
+  [661, "Prueba Oeste", "qa"],
+  [664, "Prueba Sur", "qa"],
+
+  [2528, "Argentine Consulate", "pruebas"],
+  [846, "Prueba Bs AS", "pruebas"],
+  [844, "Prueba C.A.B.A", "pruebas"],
+  [842, "Prueba Nacional CUIT", "pruebas"],
+  [840, "Prueba Nacional Pasaporte", "pruebas"],
+  [848, "Prueba Norte", "pruebas"],
+  [850, "Prueba Oeste", "pruebas"],
+  [2676, "Prueba PG", "pruebas"],
+  [852, "Prueba Sur", "pruebas"],
+  [2694, "RELACIONADO", "pruebas"],
+
+  [2396, "Argentine Consulate", "produccion"],
+  [655, "Prueba Bs AS", "produccion"],
+  [653, "Prueba C.A.B.A", "produccion"],
+  [652, "Prueba Nacional CUIT", "produccion"],
+  [650, "Prueba Nacional Pasaporte", "produccion"],
+  [658, "Prueba Norte", "produccion"],
+  [661, "Prueba Oeste", "produccion"],
+  [664, "Prueba Sur", "produccion"]
+]

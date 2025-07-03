@@ -1,0 +1,3 @@
+from generar_personas_ficticias import GeneradorPersonasCompleto
+from pprint import pprint
+import json
