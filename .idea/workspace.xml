@@ -7,15 +7,10 @@
     <list default="true" id="c76ea098-6212-4f27-b5c3-a5f5e2be9784" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/23_creacion_capa_datos/capa_datos.log" beforeDir="false" afterPath="$PROJECT_DIR$/23_creacion_capa_datos/capa_datos.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/23_creacion_capa_datos/conexion.py" beforeDir="false" afterPath="$PROJECT_DIR$/23_creacion_capa_datos/conexion.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/23_creacion_capa_datos/config_db.py" beforeDir="false" afterPath="$PROJECT_DIR$/23_creacion_capa_datos/config_db.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/23_creacion_capa_datos/datos_generados/ultimas_personas.json" beforeDir="false" afterPath="$PROJECT_DIR$/23_creacion_capa_datos/datos_generados/ultimas_personas.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/23_creacion_capa_datos/datos_random/nacionalidad.json" beforeDir="false" afterPath="$PROJECT_DIR$/23_creacion_capa_datos/datos_random/nacionalidad.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/23_creacion_capa_datos/ejemplo_uso.py" beforeDir="false" afterPath="$PROJECT_DIR$/23_creacion_capa_datos/ejemplo_uso.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/23_creacion_capa_datos/datos_random/nombres.json" beforeDir="false" afterPath="$PROJECT_DIR$/23_creacion_capa_datos/datos_random/nombres.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/23_creacion_capa_datos/generar_personas_ficticias.py" beforeDir="false" afterPath="$PROJECT_DIR$/23_creacion_capa_datos/generar_personas_ficticias.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/23_creacion_capa_datos/logger_base.py" beforeDir="false" afterPath="$PROJECT_DIR$/23_creacion_capa_datos/logger_base.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/23_creacion_capa_datos/persona.py" beforeDir="false" afterPath="$PROJECT_DIR$/23_creacion_capa_datos/persona.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/23_creacion_capa_datos/persona_dao.py" beforeDir="false" afterPath="$PROJECT_DIR$/23_creacion_capa_datos/persona_dao.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

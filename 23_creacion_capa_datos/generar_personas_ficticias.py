@@ -112,8 +112,12 @@ class GeneradorPersonasCompleto:
         }
 
     def generar_persona(self) -> Persona:
-        sexo = random.choice(["M", "F"])
-        nombres = self.datos["nombres"]["hombres"] if sexo == "M" else self.datos["nombres"]["mujeres"]
+        sexo = random.choice(["M", "F", "X"])
+        nombres = self.datos["nombres"][
+            "hombres" if sexo == "M" else
+            "mujeres" if sexo == "F" else
+            "genero_x"
+        ]
         nombre = random.choice(nombres)
         apellido = random.choice(self.datos["apellidos"])
         nacionalidad = random.choice(self.datos["nacionalidad"])
@@ -129,7 +133,7 @@ class GeneradorPersonasCompleto:
             apellido=apellido,
             email=self._generar_email(nombre, apellido),
             cuit=cuit,
-            sexo="Masculino" if sexo == "M" else "Femenino",
+            sexo = "Masculino" if sexo == "M" else "Femenino" if sexo == "F" else "No binario" if sexo == "X" else sexo,
             dni=dni,
             cumple=self._generar_fecha_nacimiento(),
             password=self._generar_password(),
