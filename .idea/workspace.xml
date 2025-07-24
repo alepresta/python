@@ -6,8 +6,11 @@
   <component name="ChangeListManager">
     <list default="true" id="c76ea098-6212-4f27-b5c3-a5f5e2be9784" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/23_creacion_capa_datos/persona_dao.py" beforeDir="false" afterPath="$PROJECT_DIR$/23_creacion_capa_datos/persona_dao.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/24_pool_conexiones/main.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/24_pool_conexiones/capa_datos.log" beforeDir="false" afterPath="$PROJECT_DIR$/24_pool_conexiones/capa_datos.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/24_pool_conexiones/conexion.py" beforeDir="false" afterPath="$PROJECT_DIR$/24_pool_conexiones/conexion.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/24_pool_conexiones/generar_personas_ficticias.py" beforeDir="false" afterPath="$PROJECT_DIR$/24_pool_conexiones/generar_personas_ficticias.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/24_pool_conexiones/persona_dao.py" beforeDir="false" afterPath="$PROJECT_DIR$/24_pool_conexiones/persona_dao.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/25_laboratorio/main.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,89 +50,92 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Python.110_clases_objetos.executor": "Run",
-    "Python.111_clases_objetos_00.executor": "Run",
-    "Python.112_clases_objetos_aritmetica.executor": "Run",
-    "Python.113_clases_objetos_aritmetica2.executor": "Run",
-    "Python.114_clases_objetos_encapsulamiento.executor": "Run",
-    "Python.115_clases_objetos_encapsulamiento1.executor": "Run",
-    "Python.116_clases_objetos_encapsulamiento_operandos.executor": "Run",
-    "Python.117_clases_objetos_atributos_de_clase.executor": "Run",
-    "Python.118_clases_objetos_atributos_de_clase_contador_personas.executor": "Run",
-    "Python.119_clases_objetos_Sistema_de_Biblioteca.executor": "Run",
-    "Python.119_clases_objetos_Sistema_de_Empleados.executor": "Run",
-    "Python.130_herencia_animal.executor": "Run",
-    "Python.131_Polimorfismo_animal.executor": "Run",
-    "Python.132_Polimorfismo_animal.executor": "Debug",
-    "Python.133_Clase_OBJECT.executor": "Run",
-    "Python.134_Ejercicio_compu.executor": "Run",
-    "Python.CatalogoPeliculas.executor": "Run",
-    "Python.Cuadrado.executor": "Run",
-    "Python.FiguraGeometrica.executor": "Run",
-    "Python.Sobrecarga_op.executor": "Run",
-    "Python.conexion.executor": "Run",
-    "Python.conexion_BD.executor": "Run",
-    "Python.conexion_bd (1).executor": "Run",
-    "Python.conexion_bd.executor": "Run",
-    "Python.conexion_with.executor": "Run",
-    "Python.conexion_with_01.executor": "Run",
-    "Python.conexion_with_02.executor": "Run",
-    "Python.conexion_with_03_varios_valores.executor": "Run",
-    "Python.conexion_with_04_varios_valores_actualizar.executor": "Run",
-    "Python.conexion_with_05_varios_valores_actualizar_varios.executor": "Run",
-    "Python.conexion_with_06_ELIMINAR.executor": "Run",
-    "Python.conexion_with_07_ELIMINAR_varios.executor": "Run",
-    "Python.conexion_with_08_TRANSACCIONES.executor": "Run",
-    "Python.conexion_with_09_TRANSACCIONES.executor": "Run",
-    "Python.ee.executor": "Run",
-    "Python.ejemplo_uso.executor": "Run",
-    "Python.ejemplo_uso_01.executor": "Run",
-    "Python.ejercicio_0000*_mail.executor": "Run",
-    "Python.ejercicio_100_funciones.executor": "Run",
-    "Python.ejercicio_101_funciones_Par_o_Impar.executor": "Run",
-    "Python.ejercicio_102_funciones_Recursivas.executor": "Debug",
-    "Python.ejercicio_103_funciones_Recursivas_Factorial.executor": "Run",
-    "Python.ejercicio_104_funciones_Recursivas_Potencia.executor": "Run",
-    "Python.ejercicio_105_funciones_Recursivas_Inventarios.executor": "Run",
-    "Python.ejercicio_106_funciones_Recursivas_Maquina_Snaks.executor": "Run",
-    "Python.ejercicio_108_funciones.executor": "Run",
-    "Python.exepciones_personalizado.executor": "Run",
-    "Python.leer_archivo.executor": "Run",
-    "Python.leer_pdf.executor": "Run",
-    "Python.leer_pdf_01.executor": "Run",
-    "Python.logger_base.executor": "Run",
-    "Python.manejo_de_archivos.executor": "Run",
-    "Python.manejo_de_archivos_001.executor": "Run",
-    "Python.manejo_de_errores.executor": "Run",
-    "Python.sobrecarga_de_operadores.executor": "Run",
-    "Python.test_catalogo_peliculas.executor": "Run",
-    "Python.test_figura_geometrica.executor": "Run",
-    "Python.uso_de_with_00.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "/home/prestaa/Workspace/python/24_pool_conexiones"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python.110_clases_objetos.executor&quot;: &quot;Run&quot;,
+    &quot;Python.111_clases_objetos_00.executor&quot;: &quot;Run&quot;,
+    &quot;Python.112_clases_objetos_aritmetica.executor&quot;: &quot;Run&quot;,
+    &quot;Python.113_clases_objetos_aritmetica2.executor&quot;: &quot;Run&quot;,
+    &quot;Python.114_clases_objetos_encapsulamiento.executor&quot;: &quot;Run&quot;,
+    &quot;Python.115_clases_objetos_encapsulamiento1.executor&quot;: &quot;Run&quot;,
+    &quot;Python.116_clases_objetos_encapsulamiento_operandos.executor&quot;: &quot;Run&quot;,
+    &quot;Python.117_clases_objetos_atributos_de_clase.executor&quot;: &quot;Run&quot;,
+    &quot;Python.118_clases_objetos_atributos_de_clase_contador_personas.executor&quot;: &quot;Run&quot;,
+    &quot;Python.119_clases_objetos_Sistema_de_Biblioteca.executor&quot;: &quot;Run&quot;,
+    &quot;Python.119_clases_objetos_Sistema_de_Empleados.executor&quot;: &quot;Run&quot;,
+    &quot;Python.130_herencia_animal.executor&quot;: &quot;Run&quot;,
+    &quot;Python.131_Polimorfismo_animal.executor&quot;: &quot;Run&quot;,
+    &quot;Python.132_Polimorfismo_animal.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.133_Clase_OBJECT.executor&quot;: &quot;Run&quot;,
+    &quot;Python.134_Ejercicio_compu.executor&quot;: &quot;Run&quot;,
+    &quot;Python.CatalogoPeliculas.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Cuadrado.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Ejecuciones.executor&quot;: &quot;Run&quot;,
+    &quot;Python.FiguraGeometrica.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Sobrecarga_op.executor&quot;: &quot;Run&quot;,
+    &quot;Python.conexion.executor&quot;: &quot;Run&quot;,
+    &quot;Python.conexion_BD.executor&quot;: &quot;Run&quot;,
+    &quot;Python.conexion_bd (1).executor&quot;: &quot;Run&quot;,
+    &quot;Python.conexion_bd.executor&quot;: &quot;Run&quot;,
+    &quot;Python.conexion_with.executor&quot;: &quot;Run&quot;,
+    &quot;Python.conexion_with_01.executor&quot;: &quot;Run&quot;,
+    &quot;Python.conexion_with_02.executor&quot;: &quot;Run&quot;,
+    &quot;Python.conexion_with_03_varios_valores.executor&quot;: &quot;Run&quot;,
+    &quot;Python.conexion_with_04_varios_valores_actualizar.executor&quot;: &quot;Run&quot;,
+    &quot;Python.conexion_with_05_varios_valores_actualizar_varios.executor&quot;: &quot;Run&quot;,
+    &quot;Python.conexion_with_06_ELIMINAR.executor&quot;: &quot;Run&quot;,
+    &quot;Python.conexion_with_07_ELIMINAR_varios.executor&quot;: &quot;Run&quot;,
+    &quot;Python.conexion_with_08_TRANSACCIONES.executor&quot;: &quot;Run&quot;,
+    &quot;Python.conexion_with_09_TRANSACCIONES.executor&quot;: &quot;Run&quot;,
+    &quot;Python.ee.executor&quot;: &quot;Run&quot;,
+    &quot;Python.ejemplo_uso (1).executor&quot;: &quot;Run&quot;,
+    &quot;Python.ejemplo_uso.executor&quot;: &quot;Run&quot;,
+    &quot;Python.ejemplo_uso_01.executor&quot;: &quot;Run&quot;,
+    &quot;Python.ejercicio_0000*_mail.executor&quot;: &quot;Run&quot;,
+    &quot;Python.ejercicio_100_funciones.executor&quot;: &quot;Run&quot;,
+    &quot;Python.ejercicio_101_funciones_Par_o_Impar.executor&quot;: &quot;Run&quot;,
+    &quot;Python.ejercicio_102_funciones_Recursivas.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.ejercicio_103_funciones_Recursivas_Factorial.executor&quot;: &quot;Run&quot;,
+    &quot;Python.ejercicio_104_funciones_Recursivas_Potencia.executor&quot;: &quot;Run&quot;,
+    &quot;Python.ejercicio_105_funciones_Recursivas_Inventarios.executor&quot;: &quot;Run&quot;,
+    &quot;Python.ejercicio_106_funciones_Recursivas_Maquina_Snaks.executor&quot;: &quot;Run&quot;,
+    &quot;Python.ejercicio_108_funciones.executor&quot;: &quot;Run&quot;,
+    &quot;Python.exepciones_personalizado.executor&quot;: &quot;Run&quot;,
+    &quot;Python.leer_archivo.executor&quot;: &quot;Run&quot;,
+    &quot;Python.leer_pdf.executor&quot;: &quot;Run&quot;,
+    &quot;Python.leer_pdf_01.executor&quot;: &quot;Run&quot;,
+    &quot;Python.logger_base.executor&quot;: &quot;Run&quot;,
+    &quot;Python.manejo_de_archivos.executor&quot;: &quot;Run&quot;,
+    &quot;Python.manejo_de_archivos_001.executor&quot;: &quot;Run&quot;,
+    &quot;Python.manejo_de_errores.executor&quot;: &quot;Run&quot;,
+    &quot;Python.sobrecarga_de_operadores.executor&quot;: &quot;Run&quot;,
+    &quot;Python.test_catalogo_peliculas.executor&quot;: &quot;Run&quot;,
+    &quot;Python.test_figura_geometrica.executor&quot;: &quot;Run&quot;,
+    &quot;Python.uso_de_with_00.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/prestaa/Workspace/python/24_pool_conexiones&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/24_pool_conexiones" />
       <recent name="$PROJECT_DIR$/23_creacion_capa_datos" />
       <recent name="$PROJECT_DIR$/20_conexion_bd_postgresql" />
       <recent name="$PROJECT_DIR$/17_manejo_archivos" />
       <recent name="$PROJECT_DIR$/16_manejo_excepciones" />
-      <recent name="$PROJECT_DIR$/13_herencia" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/25_laboratorio" />
       <recent name="$PROJECT_DIR$/23_creacion_capa_datos" />
       <recent name="$PROJECT_DIR$/23_creacion_capa_datos/dao" />
       <recent name="$PROJECT_DIR$/23_creacion_capa_datos/modelos" />
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.ejemplo_uso">
-    <configuration name="conexion" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.Ejecuciones">
+    <configuration name="Ejecuciones" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="PythonProject" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -138,11 +144,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/23_creacion_capa_datos" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/25_laboratorio" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/23_creacion_capa_datos/conexion.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/25_laboratorio/Ejecuciones.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -151,7 +157,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="conexion_with_09_TRANSACCIONES" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="ejemplo_uso (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="PythonProject" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -160,11 +166,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/20_conexion_bd_postgresql" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/24_pool_conexiones" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/20_conexion_bd_postgresql/conexion_with_09_TRANSACCIONES.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/24_pool_conexiones/ejemplo_uso.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -241,18 +247,18 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.Ejecuciones" />
+        <item itemvalue="Python.ejemplo_uso (1)" />
         <item itemvalue="Python.ejemplo_uso" />
         <item itemvalue="Python.ejemplo_uso_01" />
         <item itemvalue="Python.logger_base" />
-        <item itemvalue="Python.conexion" />
-        <item itemvalue="Python.conexion_with_09_TRANSACCIONES" />
       </list>
     </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-python-sdk-53e2683a6804-9cdd278e9d02-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-251.26094.141" />
+        <option value="bundled-python-sdk-598b0484d0b5-e2d783800521-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-251.26927.74" />
       </set>
     </attachedChunks>
   </component>

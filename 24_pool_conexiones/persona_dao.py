@@ -1,6 +1,6 @@
 import logging
 from typing import List, Optional
-from conexion import Conexion
+from conexion import ConexionPool  # Cambiado
 from persona import Persona
 import config_db
 
@@ -28,33 +28,34 @@ class PersonaDAO:
     _ELIMINAR = "DELETE FROM persona WHERE id_persona=%s"
     _SELECCIONAR_ID = "SELECT * FROM persona WHERE id_persona=%s"
 
+    # Pool de conexiones compartido para toda la clase
+    _pool = ConexionPool.obtener_pool(config_db.DATABASE)
+
     @classmethod
     def obtener_todos(cls, limit: int = 100) -> List[Persona]:
-        with Conexion.obtener_conexion(config_db.DATABASE) as conexion:
-            with conexion.obtener_cursor() as cursor:
-                cursor.execute(f"{cls._SELECCIONAR} LIMIT %s", (limit,))
-                registros = cursor.fetchall()
-                personas = [cls._registro_a_persona(r) for r in registros]
-                return personas
+        with cls._pool.obtener_cursor() as cursor:  # Cambiado
+            cursor.execute(f"{cls._SELECCIONAR} LIMIT %s", (limit,))
+            registros = cursor.fetchall()
+            personas = [cls._registro_a_persona(r) for r in registros]
+            return personas
 
     @classmethod
     def insertar(cls, persona: Persona) -> Optional[Persona]:
-        with Conexion.obtener_conexion(config_db.DATABASE) as conexion:
-            with conexion.obtener_cursor() as cursor:
-                valores = (
-                    persona.nombre, persona.apellido, persona.email, persona.cuit, persona.sexo,
-                    persona.dni, persona.cumple, persona.password, persona.codigoReserva,
-                    persona.fecha, persona.horario, persona.tramite, persona.puntoAtencion,
-                    persona.direccionPuntoAtencion, persona.numeroAfiliado, persona.codPais,
-                    persona.codRea, persona.numeroTelefono, persona.nacionalidad,
-                    persona.numeroTramite, persona.campoTexto, persona.menuDesplegable,
-                    persona.areaTexto, persona.botonOpcion, persona.campoFecha, persona.organismo,
-                    persona.turnoPara
-                )
-                cursor.execute(cls._INSERTAR, valores)
-                persona.id_persona = cursor.fetchone()[0]
-                log.info(f"Persona insertada: {persona}")
-                return persona
+        with cls._pool.obtener_cursor() as cursor:  # Cambiado
+            valores = (
+                persona.nombre, persona.apellido, persona.email, persona.cuit, persona.sexo,
+                persona.dni, persona.cumple, persona.password, persona.codigoReserva,
+                persona.fecha, persona.horario, persona.tramite, persona.puntoAtencion,
+                persona.direccionPuntoAtencion, persona.numeroAfiliado, persona.codPais,
+                persona.codRea, persona.numeroTelefono, persona.nacionalidad,
+                persona.numeroTramite, persona.campoTexto, persona.menuDesplegable,
+                persona.areaTexto, persona.botonOpcion, persona.campoFecha, persona.organismo,
+                persona.turnoPara
+            )
+            cursor.execute(cls._INSERTAR, valores)
+            persona.id_persona = cursor.fetchone()[0]
+            log.info(f"Persona insertada: {persona}")
+            return persona
 
     @classmethod
     def actualizar(cls, id_persona: int, nuevos_valores: dict) -> Optional[Persona]:
@@ -65,29 +66,26 @@ class PersonaDAO:
         placeholders = ", ".join([f"{campo}=%s" for campo in campos])
         query = f"UPDATE persona SET {placeholders} WHERE id_persona=%s"
 
-        with Conexion.obtener_conexion(config_db.DATABASE) as conexion:
-            with conexion.obtener_cursor() as cursor:
-                cursor.execute(query, valores)
-                log.info(f"Persona actualizada ID={id_persona}")
-                return cls.obtener_por_id(id_persona)
+        with cls._pool.obtener_cursor() as cursor:  # Cambiado
+            cursor.execute(query, valores)
+            log.info(f"Persona actualizada ID={id_persona}")
+            return cls.obtener_por_id(id_persona)
 
     @classmethod
     def eliminar(cls, id_persona: int) -> bool:
-        with Conexion.obtener_conexion(config_db.DATABASE) as conexion:
-            with conexion.obtener_cursor() as cursor:
-                cursor.execute(cls._ELIMINAR, (id_persona,))
-                log.info(f"Persona eliminada ID={id_persona}")
-                return True
+        with cls._pool.obtener_cursor() as cursor:  # Cambiado
+            cursor.execute(cls._ELIMINAR, (id_persona,))
+            log.info(f"Persona eliminada ID={id_persona}")
+            return True
 
     @classmethod
     def obtener_por_id(cls, id_persona: int) -> Optional[Persona]:
-        with Conexion.obtener_conexion(config_db.DATABASE) as conexion:
-            with conexion.obtener_cursor() as cursor:
-                cursor.execute(cls._SELECCIONAR_ID, (id_persona,))
-                registro = cursor.fetchone()
-                if registro:
-                    return cls._registro_a_persona(registro)
-                return None
+        with cls._pool.obtener_cursor() as cursor:  # Cambiado
+            cursor.execute(cls._SELECCIONAR_ID, (id_persona,))
+            registro = cursor.fetchone()
+            if registro:
+                return cls._registro_a_persona(registro)
+            return None
 
     @staticmethod
     def _registro_a_persona(registro) -> Persona:
@@ -121,4 +119,3 @@ class PersonaDAO:
             organismo=registro[26],
             turnoPara=registro[27]
         )
-

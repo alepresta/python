@@ -8,7 +8,7 @@ import logging
 
 from persona import Persona
 from persona_dao import PersonaDAO
-from conexion import Conexion
+from conexion import ConexionPool  # Cambiado
 import config_db
 
 log = logging.getLogger(__name__)
@@ -216,10 +216,10 @@ class GeneradorPersonasCompleto:
         );
         """
         try:
-            with Conexion.obtener_conexion(self.db_config) as conexion:
-                with conexion.obtener_cursor() as cursor:
-                    cursor.execute(sql)
-                    log.info("Tabla persona verificada/creada")
+            pool = ConexionPool.obtener_pool(self.db_config)
+            with pool.obtener_cursor() as cursor:
+                cursor.execute(sql)
+                log.info("Tabla persona verificada/creada")
         except Exception as e:
             log.error(f"Error creando/verificando tabla persona: {e}")
 
@@ -227,7 +227,7 @@ class GeneradorPersonasCompleto:
 import sys
 from persona import Persona
 from persona_dao import PersonaDAO
-from conexion import Conexion
+from conexion import ConexionPool  # Cambiado
 
 class SistemaGestionPersonas:
     def __init__(self):
@@ -344,10 +344,10 @@ class SistemaGestionPersonas:
     def eliminar_todos_datos(self):
         confirmar = input("¿Está seguro de eliminar TODOS los datos? (si/no): ").lower()
         if confirmar == "si":
-            with Conexion.obtener_conexion(config_db.DATABASE) as conexion:
-                with conexion.obtener_cursor() as cursor:
-                    cursor.execute("TRUNCATE persona RESTART IDENTITY CASCADE")
-                    print("Todos los datos han sido eliminados.")
+            pool = ConexionPool.obtener_pool(config_db.DATABASE)
+            with pool.obtener_cursor() as cursor:
+                cursor.execute("TRUNCATE persona RESTART IDENTITY CASCADE")
+                print("Todos los datos han sido eliminados.")
 
     def _mostrar_detalle(self, persona: Persona):
         print("\n=== DETALLE DE PERSONA ===")
