@@ -5,8 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c76ea098-6212-4f27-b5c3-a5f5e2be9784" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/26_conexion_bd_mysql/seleccionar.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/26_conexion_bd_mysql/main.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/26_conexion_bd_mysql/conexion_mysql.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,6 +70,7 @@
     &quot;Python.Ejecuciones.executor&quot;: &quot;Run&quot;,
     &quot;Python.FiguraGeometrica.executor&quot;: &quot;Run&quot;,
     &quot;Python.Sobrecarga_op.executor&quot;: &quot;Run&quot;,
+    &quot;Python.actualizar.executor&quot;: &quot;Run&quot;,
     &quot;Python.conexion.executor&quot;: &quot;Run&quot;,
     &quot;Python.conexion_BD.executor&quot;: &quot;Run&quot;,
     &quot;Python.conexion_bd (1).executor&quot;: &quot;Run&quot;,
@@ -97,7 +99,9 @@
     &quot;Python.ejercicio_105_funciones_Recursivas_Inventarios.executor&quot;: &quot;Run&quot;,
     &quot;Python.ejercicio_106_funciones_Recursivas_Maquina_Snaks.executor&quot;: &quot;Run&quot;,
     &quot;Python.ejercicio_108_funciones.executor&quot;: &quot;Run&quot;,
+    &quot;Python.eliminar.executor&quot;: &quot;Run&quot;,
     &quot;Python.exepciones_personalizado.executor&quot;: &quot;Run&quot;,
+    &quot;Python.insertar.executor&quot;: &quot;Run&quot;,
     &quot;Python.leer_archivo.executor&quot;: &quot;Run&quot;,
     &quot;Python.leer_pdf.executor&quot;: &quot;Run&quot;,
     &quot;Python.leer_pdf_01.executor&quot;: &quot;Run&quot;,
@@ -105,11 +109,14 @@
     &quot;Python.manejo_de_archivos.executor&quot;: &quot;Run&quot;,
     &quot;Python.manejo_de_archivos_001.executor&quot;: &quot;Run&quot;,
     &quot;Python.manejo_de_errores.executor&quot;: &quot;Run&quot;,
+    &quot;Python.menu.executor&quot;: &quot;Run&quot;,
+    &quot;Python.seleccionar.executor&quot;: &quot;Run&quot;,
     &quot;Python.select.executor&quot;: &quot;Run&quot;,
     &quot;Python.sobrecarga_de_operadores.executor&quot;: &quot;Run&quot;,
     &quot;Python.test_catalogo_peliculas.executor&quot;: &quot;Run&quot;,
     &quot;Python.test_figura_geometrica.executor&quot;: &quot;Run&quot;,
     &quot;Python.uso_de_with_00.executor&quot;: &quot;Run&quot;,
+    &quot;Python.zona_fit_pruebas.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
@@ -126,37 +133,15 @@
       <recent name="$PROJECT_DIR$/16_manejo_excepciones" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/25_laboratorio" />
       <recent name="$PROJECT_DIR$/23_creacion_capa_datos" />
       <recent name="$PROJECT_DIR$/23_creacion_capa_datos/dao" />
       <recent name="$PROJECT_DIR$/23_creacion_capa_datos/modelos" />
-      <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.conexion_mysql">
-    <configuration name="Ejecuciones" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="PythonProject" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/25_laboratorio" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/25_laboratorio/Ejecuciones.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="conexion_mysql" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.zona_fit_pruebas">
+    <configuration name="actualizar" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="PythonProject" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -169,7 +154,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/26_conexion_bd_mysql/conexion_mysql.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/26_conexion_bd_mysql/actualizar.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -178,7 +163,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="ejemplo_uso (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="eliminar" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="PythonProject" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -187,11 +172,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/24_pool_conexiones" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/26_conexion_bd_mysql" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/24_pool_conexiones/ejemplo_uso.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/26_conexion_bd_mysql/eliminar.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -200,7 +185,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="ejemplo_uso" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="menu" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="PythonProject" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -209,11 +194,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/23_creacion_capa_datos" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/26_zona_fit" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/23_creacion_capa_datos/ejemplo_uso.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/26_zona_fit/menu.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -222,7 +207,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="ejemplo_uso_01" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="seleccionar" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="PythonProject" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -231,11 +216,33 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/23_creacion_capa_datos" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/26_conexion_bd_mysql" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/23_creacion_capa_datos/ejemplo_uso_01.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/26_conexion_bd_mysql/seleccionar.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="zona_fit_pruebas" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="PythonProject" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/26_zona_fit" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/26_zona_fit/zona_fit_pruebas.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -246,11 +253,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.conexion_mysql" />
-        <item itemvalue="Python.Ejecuciones" />
-        <item itemvalue="Python.ejemplo_uso (1)" />
-        <item itemvalue="Python.ejemplo_uso" />
-        <item itemvalue="Python.ejemplo_uso_01" />
+        <item itemvalue="Python.zona_fit_pruebas" />
+        <item itemvalue="Python.menu" />
+        <item itemvalue="Python.eliminar" />
+        <item itemvalue="Python.actualizar" />
+        <item itemvalue="Python.seleccionar" />
       </list>
     </recent_temporary>
   </component>
