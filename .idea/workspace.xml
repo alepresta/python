@@ -5,9 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c76ea098-6212-4f27-b5c3-a5f5e2be9784" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/26_conexion_bd_mysql/seleccionar.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/26_conexion_bd_mysql/conexion_mysql.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/26_zona_fit/ClienteDAO.py" beforeDir="false" afterPath="$PROJECT_DIR$/26_zona_fit/ClienteDAO.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/26_zona_fit/cliente.py" beforeDir="false" afterPath="$PROJECT_DIR$/26_zona_fit/cliente.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/26_zona_fit/conexion.py" beforeDir="false" afterPath="$PROJECT_DIR$/26_zona_fit/conexion.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/26_zona_fit/menu.py" beforeDir="false" afterPath="$PROJECT_DIR$/26_zona_fit/menu.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

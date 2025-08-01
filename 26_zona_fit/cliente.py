@@ -1,5 +1,5 @@
 class Cliente:
-    def __init__(self,nombre,apellido,membresia,id=None):
+    def __init__(self,nombre=None,apellido=None,membresia=None,id=None):
         self.nombre = nombre
         self.apellido = apellido
         self.membresia = membresia
@@ -14,7 +14,7 @@ class Cliente:
 
     @nombre.setter
     def nombre(self, nombre):
-        self._nombre = nombre.strip().title()
+        self._nombre = str(nombre).strip().title() if nombre is not None else None
 
     @property
     def apellido(self):
@@ -22,7 +22,7 @@ class Cliente:
 
     @apellido.setter
     def apellido(self, apellido):
-        self._apellido = apellido.strip().title()
+        self._apellido = str(apellido).strip().title() if apellido is not None else None
 
     @property
     def membresia(self):
@@ -30,7 +30,7 @@ class Cliente:
 
     @membresia.setter
     def membresia(self,membresia):
-        self._membresia = membresia.strip().title()
+        self._membresia = str(membresia).strip().title() if membresia is not None else None
 
     @property
     def id(self):
@@ -38,5 +38,5 @@ class Cliente:
 
     @id.setter
     def id(self,id):
-        self._id = id
+        self._id = str(id).strip() if id is not None else None
 

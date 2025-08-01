@@ -1,7 +1,4 @@
-from cliente import Cliente
 from ClienteDAO import ClienteDAO
-import mysql.connector
-from datos_de_la_conexion import DATABASE
 
 def menu():
     print('  Bienvenido a Zona Fit  '.center(30,'*'))
@@ -11,7 +8,7 @@ def menu():
     print(' 4) Eliminar')
     print(' 5) Salir')
     print(''.center(30, '*'))
-    opcion = int(input('Seleccione una opción 1/4 => '))
+    opcion = int(input('Seleccione una opción 1/5 => '))
     return int(opcion)
 
 def app_zona_fit():
@@ -54,14 +51,3 @@ def app_zona_fit():
             print(''.center(30, '*'))
 
 
-
-
-#
-#
-# # cursor.execute(INSERTAR, (cliente_01.nombre, cliente_01.apellido, cliente_01.membresia))
-# cursor.execute(INSERTAR, tuple(vars(cliente_01).values()))
-# bd_clientes.commit()
-#
-# valores = (cliente_02._nombre, cliente_02._apellido, cliente_02._membresia)
-# cursor.execute(INSERTAR, valores)
-# bd_clientes.commit()
