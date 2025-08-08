@@ -6,10 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="c76ea098-6212-4f27-b5c3-a5f5e2be9784" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/26_zona_fit/ClienteDAO.py" beforeDir="false" afterPath="$PROJECT_DIR$/26_zona_fit/ClienteDAO.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/26_zona_fit/cliente.py" beforeDir="false" afterPath="$PROJECT_DIR$/26_zona_fit/cliente.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/26_zona_fit/conexion.py" beforeDir="false" afterPath="$PROJECT_DIR$/26_zona_fit/conexion.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/26_zona_fit/menu.py" beforeDir="false" afterPath="$PROJECT_DIR$/26_zona_fit/menu.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/27_profundizando/main.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/28_profundizando_tipo_string/main.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -88,6 +86,7 @@
     &quot;Python.conexion_with_07_ELIMINAR_varios.executor&quot;: &quot;Run&quot;,
     &quot;Python.conexion_with_08_TRANSACCIONES.executor&quot;: &quot;Run&quot;,
     &quot;Python.conexion_with_09_TRANSACCIONES.executor&quot;: &quot;Run&quot;,
+    &quot;Python.documentacion.executor&quot;: &quot;Run&quot;,
     &quot;Python.ee.executor&quot;: &quot;Run&quot;,
     &quot;Python.ejemplo_uso (1).executor&quot;: &quot;Run&quot;,
     &quot;Python.ejemplo_uso.executor&quot;: &quot;Run&quot;,
@@ -112,11 +111,14 @@
     &quot;Python.manejo_de_archivos_001.executor&quot;: &quot;Run&quot;,
     &quot;Python.manejo_de_errores.executor&quot;: &quot;Run&quot;,
     &quot;Python.menu.executor&quot;: &quot;Run&quot;,
+    &quot;Python.not_a_number.executor&quot;: &quot;Run&quot;,
     &quot;Python.seleccionar.executor&quot;: &quot;Run&quot;,
     &quot;Python.select.executor&quot;: &quot;Run&quot;,
+    &quot;Python.sistemas_numeracion.executor&quot;: &quot;Run&quot;,
     &quot;Python.sobrecarga_de_operadores.executor&quot;: &quot;Run&quot;,
     &quot;Python.test_catalogo_peliculas.executor&quot;: &quot;Run&quot;,
     &quot;Python.test_figura_geometrica.executor&quot;: &quot;Run&quot;,
+    &quot;Python.tipo_str.executor&quot;: &quot;Run&quot;,
     &quot;Python.uso_de_with_00.executor&quot;: &quot;Run&quot;,
     &quot;Python.zona_fit_pruebas.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
@@ -142,8 +144,8 @@
       <recent name="$PROJECT_DIR$/23_creacion_capa_datos/modelos" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.zona_fit_pruebas">
-    <configuration name="actualizar" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.tipo_str">
+    <configuration name="documentacion" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="PythonProject" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -152,11 +154,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/26_conexion_bd_mysql" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/28_profundizando_tipo_string" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/26_conexion_bd_mysql/actualizar.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/28_profundizando_tipo_string/documentacion.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -165,7 +167,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="eliminar" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="not_a_number" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="PythonProject" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -174,11 +176,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/26_conexion_bd_mysql" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/28_profundizando_tipo_string" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/26_conexion_bd_mysql/eliminar.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/28_profundizando_tipo_string/not_a_number.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -187,7 +189,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="menu" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="sistemas_numeracion" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="PythonProject" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -196,11 +198,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/26_zona_fit" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/27_profundizando" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/26_zona_fit/menu.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/27_profundizando/sistemas_numeracion.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -209,7 +211,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="seleccionar" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="tipo_str" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="PythonProject" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -218,11 +220,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/26_conexion_bd_mysql" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/28_profundizando_tipo_string" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/26_conexion_bd_mysql/seleccionar.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/28_profundizando_tipo_string/tipo_str.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -255,18 +257,18 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.tipo_str" />
+        <item itemvalue="Python.documentacion" />
+        <item itemvalue="Python.not_a_number" />
+        <item itemvalue="Python.sistemas_numeracion" />
         <item itemvalue="Python.zona_fit_pruebas" />
-        <item itemvalue="Python.menu" />
-        <item itemvalue="Python.eliminar" />
-        <item itemvalue="Python.actualizar" />
-        <item itemvalue="Python.seleccionar" />
       </list>
     </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-python-sdk-4c141bd692a7-e2d783800521-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-251.26927.90" />
+        <option value="bundled-python-sdk-03e874896e21-d902c0275401-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-252.23892.439" />
       </set>
     </attachedChunks>
   </component>
