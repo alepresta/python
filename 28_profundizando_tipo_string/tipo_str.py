@@ -26,6 +26,14 @@ print(f' SPLIT '.center(20,'*'))
 mensaje5 = un_string1.split()
 print(f'{mensaje5}, tipo:{type(mensaje5)}')
 
-cursos_separados_por_coma = 'java,Python,Angular,Stpring,Excel'
-mensaje6 = cursos_separados_por_coma.split()
-print(f'{mensaje6}, tipo:{type(mensaje5)}')
+cursos_separados_por_coma = 'java,Python,JavaScript,Angular,Stpring,Excel'
+mensaje6 = cursos_separados_por_coma.split(',')
+print(f'{mensaje6}, tipo:{type(mensaje6)}')
+print(f'Cantidad de elementos: {len(mensaje6)}')
+
+
+print(f' MAX SPLIT '.center(20,'*'))
+cursos_separados_por_coma1 = 'java,Python,JavaScript,Angular,Stpring,Excel'
+mensaje7 = cursos_separados_por_coma1.split(',',2)
+print(f'{mensaje7}, tipo:{type(mensaje7)}')
+print(f'Cantidad de elementos: {len(mensaje7)}')

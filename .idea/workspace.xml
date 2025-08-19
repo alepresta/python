@@ -6,8 +6,11 @@
   <component name="ChangeListManager">
     <list default="true" id="c76ea098-6212-4f27-b5c3-a5f5e2be9784" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/27_profundizando/main.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/28_profundizando_tipo_string/main.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/28_profundizando_tipo_string/tipo_str.py" beforeDir="false" afterPath="$PROJECT_DIR$/28_profundizando_tipo_string/tipo_str.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/29_profundizando_cadenas/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/29_profundizando_cadenas/cadenas.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/30_profundizando_clase_str/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/30_profundizando_clase_str/cadenas_d.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/31_manejo_literales/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/31_manejo_literales/literales_byte.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/32_alineado_cadenas/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/32_alineado_cadenas/leer_contenido_online.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,94 +50,101 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Python.110_clases_objetos.executor&quot;: &quot;Run&quot;,
-    &quot;Python.111_clases_objetos_00.executor&quot;: &quot;Run&quot;,
-    &quot;Python.112_clases_objetos_aritmetica.executor&quot;: &quot;Run&quot;,
-    &quot;Python.113_clases_objetos_aritmetica2.executor&quot;: &quot;Run&quot;,
-    &quot;Python.114_clases_objetos_encapsulamiento.executor&quot;: &quot;Run&quot;,
-    &quot;Python.115_clases_objetos_encapsulamiento1.executor&quot;: &quot;Run&quot;,
-    &quot;Python.116_clases_objetos_encapsulamiento_operandos.executor&quot;: &quot;Run&quot;,
-    &quot;Python.117_clases_objetos_atributos_de_clase.executor&quot;: &quot;Run&quot;,
-    &quot;Python.118_clases_objetos_atributos_de_clase_contador_personas.executor&quot;: &quot;Run&quot;,
-    &quot;Python.119_clases_objetos_Sistema_de_Biblioteca.executor&quot;: &quot;Run&quot;,
-    &quot;Python.119_clases_objetos_Sistema_de_Empleados.executor&quot;: &quot;Run&quot;,
-    &quot;Python.130_herencia_animal.executor&quot;: &quot;Run&quot;,
-    &quot;Python.131_Polimorfismo_animal.executor&quot;: &quot;Run&quot;,
-    &quot;Python.132_Polimorfismo_animal.executor&quot;: &quot;Debug&quot;,
-    &quot;Python.133_Clase_OBJECT.executor&quot;: &quot;Run&quot;,
-    &quot;Python.134_Ejercicio_compu.executor&quot;: &quot;Run&quot;,
-    &quot;Python.CatalogoPeliculas.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Cuadrado.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Ejecuciones.executor&quot;: &quot;Run&quot;,
-    &quot;Python.FiguraGeometrica.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Sobrecarga_op.executor&quot;: &quot;Run&quot;,
-    &quot;Python.actualizar.executor&quot;: &quot;Run&quot;,
-    &quot;Python.conexion.executor&quot;: &quot;Run&quot;,
-    &quot;Python.conexion_BD.executor&quot;: &quot;Run&quot;,
-    &quot;Python.conexion_bd (1).executor&quot;: &quot;Run&quot;,
-    &quot;Python.conexion_bd.executor&quot;: &quot;Run&quot;,
-    &quot;Python.conexion_mysql.executor&quot;: &quot;Run&quot;,
-    &quot;Python.conexion_with.executor&quot;: &quot;Run&quot;,
-    &quot;Python.conexion_with_01.executor&quot;: &quot;Run&quot;,
-    &quot;Python.conexion_with_02.executor&quot;: &quot;Run&quot;,
-    &quot;Python.conexion_with_03_varios_valores.executor&quot;: &quot;Run&quot;,
-    &quot;Python.conexion_with_04_varios_valores_actualizar.executor&quot;: &quot;Run&quot;,
-    &quot;Python.conexion_with_05_varios_valores_actualizar_varios.executor&quot;: &quot;Run&quot;,
-    &quot;Python.conexion_with_06_ELIMINAR.executor&quot;: &quot;Run&quot;,
-    &quot;Python.conexion_with_07_ELIMINAR_varios.executor&quot;: &quot;Run&quot;,
-    &quot;Python.conexion_with_08_TRANSACCIONES.executor&quot;: &quot;Run&quot;,
-    &quot;Python.conexion_with_09_TRANSACCIONES.executor&quot;: &quot;Run&quot;,
-    &quot;Python.documentacion.executor&quot;: &quot;Run&quot;,
-    &quot;Python.ee.executor&quot;: &quot;Run&quot;,
-    &quot;Python.ejemplo_uso (1).executor&quot;: &quot;Run&quot;,
-    &quot;Python.ejemplo_uso.executor&quot;: &quot;Run&quot;,
-    &quot;Python.ejemplo_uso_01.executor&quot;: &quot;Run&quot;,
-    &quot;Python.ejercicio_0000*_mail.executor&quot;: &quot;Run&quot;,
-    &quot;Python.ejercicio_100_funciones.executor&quot;: &quot;Run&quot;,
-    &quot;Python.ejercicio_101_funciones_Par_o_Impar.executor&quot;: &quot;Run&quot;,
-    &quot;Python.ejercicio_102_funciones_Recursivas.executor&quot;: &quot;Debug&quot;,
-    &quot;Python.ejercicio_103_funciones_Recursivas_Factorial.executor&quot;: &quot;Run&quot;,
-    &quot;Python.ejercicio_104_funciones_Recursivas_Potencia.executor&quot;: &quot;Run&quot;,
-    &quot;Python.ejercicio_105_funciones_Recursivas_Inventarios.executor&quot;: &quot;Run&quot;,
-    &quot;Python.ejercicio_106_funciones_Recursivas_Maquina_Snaks.executor&quot;: &quot;Run&quot;,
-    &quot;Python.ejercicio_108_funciones.executor&quot;: &quot;Run&quot;,
-    &quot;Python.eliminar.executor&quot;: &quot;Run&quot;,
-    &quot;Python.exepciones_personalizado.executor&quot;: &quot;Run&quot;,
-    &quot;Python.insertar.executor&quot;: &quot;Run&quot;,
-    &quot;Python.leer_archivo.executor&quot;: &quot;Run&quot;,
-    &quot;Python.leer_pdf.executor&quot;: &quot;Run&quot;,
-    &quot;Python.leer_pdf_01.executor&quot;: &quot;Run&quot;,
-    &quot;Python.logger_base.executor&quot;: &quot;Run&quot;,
-    &quot;Python.manejo_de_archivos.executor&quot;: &quot;Run&quot;,
-    &quot;Python.manejo_de_archivos_001.executor&quot;: &quot;Run&quot;,
-    &quot;Python.manejo_de_errores.executor&quot;: &quot;Run&quot;,
-    &quot;Python.menu.executor&quot;: &quot;Run&quot;,
-    &quot;Python.not_a_number.executor&quot;: &quot;Run&quot;,
-    &quot;Python.seleccionar.executor&quot;: &quot;Run&quot;,
-    &quot;Python.select.executor&quot;: &quot;Run&quot;,
-    &quot;Python.sistemas_numeracion.executor&quot;: &quot;Run&quot;,
-    &quot;Python.sobrecarga_de_operadores.executor&quot;: &quot;Run&quot;,
-    &quot;Python.test_catalogo_peliculas.executor&quot;: &quot;Run&quot;,
-    &quot;Python.test_figura_geometrica.executor&quot;: &quot;Run&quot;,
-    &quot;Python.tipo_str.executor&quot;: &quot;Run&quot;,
-    &quot;Python.uso_de_with_00.executor&quot;: &quot;Run&quot;,
-    &quot;Python.zona_fit_pruebas.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/home/prestaa/Workspace/PersonasDB&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Python.110_clases_objetos.executor": "Run",
+    "Python.111_clases_objetos_00.executor": "Run",
+    "Python.112_clases_objetos_aritmetica.executor": "Run",
+    "Python.113_clases_objetos_aritmetica2.executor": "Run",
+    "Python.114_clases_objetos_encapsulamiento.executor": "Run",
+    "Python.115_clases_objetos_encapsulamiento1.executor": "Run",
+    "Python.116_clases_objetos_encapsulamiento_operandos.executor": "Run",
+    "Python.117_clases_objetos_atributos_de_clase.executor": "Run",
+    "Python.118_clases_objetos_atributos_de_clase_contador_personas.executor": "Run",
+    "Python.119_clases_objetos_Sistema_de_Biblioteca.executor": "Run",
+    "Python.119_clases_objetos_Sistema_de_Empleados.executor": "Run",
+    "Python.130_herencia_animal.executor": "Run",
+    "Python.131_Polimorfismo_animal.executor": "Run",
+    "Python.132_Polimorfismo_animal.executor": "Debug",
+    "Python.133_Clase_OBJECT.executor": "Run",
+    "Python.134_Ejercicio_compu.executor": "Run",
+    "Python.CatalogoPeliculas.executor": "Run",
+    "Python.Cuadrado.executor": "Run",
+    "Python.Ejecuciones.executor": "Run",
+    "Python.FiguraGeometrica.executor": "Run",
+    "Python.Sobrecarga_op.executor": "Run",
+    "Python.actualizar.executor": "Run",
+    "Python.cadenas.executor": "Run",
+    "Python.cadenas_d.executor": "Run",
+    "Python.caracteres_inicode.executor": "Run",
+    "Python.conexion.executor": "Run",
+    "Python.conexion_BD.executor": "Run",
+    "Python.conexion_bd (1).executor": "Run",
+    "Python.conexion_bd.executor": "Run",
+    "Python.conexion_mysql.executor": "Run",
+    "Python.conexion_with.executor": "Run",
+    "Python.conexion_with_01.executor": "Run",
+    "Python.conexion_with_02.executor": "Run",
+    "Python.conexion_with_03_varios_valores.executor": "Run",
+    "Python.conexion_with_04_varios_valores_actualizar.executor": "Run",
+    "Python.conexion_with_05_varios_valores_actualizar_varios.executor": "Run",
+    "Python.conexion_with_06_ELIMINAR.executor": "Run",
+    "Python.conexion_with_07_ELIMINAR_varios.executor": "Run",
+    "Python.conexion_with_08_TRANSACCIONES.executor": "Run",
+    "Python.conexion_with_09_TRANSACCIONES.executor": "Run",
+    "Python.documentacion.executor": "Run",
+    "Python.ee.executor": "Run",
+    "Python.ejemplo_uso (1).executor": "Run",
+    "Python.ejemplo_uso.executor": "Run",
+    "Python.ejemplo_uso_01.executor": "Run",
+    "Python.ejercicio_0000*_mail.executor": "Run",
+    "Python.ejercicio_100_funciones.executor": "Run",
+    "Python.ejercicio_101_funciones_Par_o_Impar.executor": "Run",
+    "Python.ejercicio_102_funciones_Recursivas.executor": "Debug",
+    "Python.ejercicio_103_funciones_Recursivas_Factorial.executor": "Run",
+    "Python.ejercicio_104_funciones_Recursivas_Potencia.executor": "Run",
+    "Python.ejercicio_105_funciones_Recursivas_Inventarios.executor": "Run",
+    "Python.ejercicio_106_funciones_Recursivas_Maquina_Snaks.executor": "Run",
+    "Python.ejercicio_108_funciones.executor": "Run",
+    "Python.eliminar.executor": "Run",
+    "Python.exepciones_personalizado.executor": "Run",
+    "Python.insertar.executor": "Run",
+    "Python.leer_archivo.executor": "Run",
+    "Python.leer_contenido_online.executor": "Run",
+    "Python.leer_contenido_online1.executor": "Run",
+    "Python.leer_contenido_online2.executor": "Run",
+    "Python.leer_pdf.executor": "Run",
+    "Python.leer_pdf_01.executor": "Run",
+    "Python.literales_byte.executor": "Run",
+    "Python.logger_base.executor": "Run",
+    "Python.manejo_de_archivos.executor": "Run",
+    "Python.manejo_de_archivos_001.executor": "Run",
+    "Python.manejo_de_errores.executor": "Run",
+    "Python.menu.executor": "Run",
+    "Python.not_a_number.executor": "Run",
+    "Python.seleccionar.executor": "Run",
+    "Python.select.executor": "Run",
+    "Python.sistemas_numeracion.executor": "Run",
+    "Python.sobrecarga_de_operadores.executor": "Run",
+    "Python.test_catalogo_peliculas.executor": "Run",
+    "Python.test_figura_geometrica.executor": "Run",
+    "Python.tipo_str.executor": "Run",
+    "Python.uso_de_with_00.executor": "Run",
+    "Python.zona_fit_pruebas.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "/home/prestaa/Workspace/python/32_alineado_cadenas",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/32_alineado_cadenas" />
       <recent name="$PROJECT_DIR$/24_pool_conexiones" />
       <recent name="$PROJECT_DIR$/23_creacion_capa_datos" />
       <recent name="$PROJECT_DIR$/20_conexion_bd_postgresql" />
       <recent name="$PROJECT_DIR$/17_manejo_archivos" />
-      <recent name="$PROJECT_DIR$/16_manejo_excepciones" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
@@ -144,8 +154,8 @@
       <recent name="$PROJECT_DIR$/23_creacion_capa_datos/modelos" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.tipo_str">
-    <configuration name="documentacion" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.leer_contenido_online2">
+    <configuration name="caracteres_inicode" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="PythonProject" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -154,11 +164,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/28_profundizando_tipo_string" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/30_profundizando_clase_str" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/28_profundizando_tipo_string/documentacion.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/30_profundizando_clase_str/caracteres_inicode.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -167,7 +177,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="not_a_number" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="leer_contenido_online" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="PythonProject" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -176,11 +186,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/28_profundizando_tipo_string" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/32_alineado_cadenas" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/28_profundizando_tipo_string/not_a_number.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/32_alineado_cadenas/leer_contenido_online.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -189,7 +199,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="sistemas_numeracion" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="leer_contenido_online1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="PythonProject" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -198,11 +208,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/27_profundizando" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/32_alineado_cadenas" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/27_profundizando/sistemas_numeracion.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/32_alineado_cadenas/leer_contenido_online1.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -211,7 +221,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="tipo_str" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="leer_contenido_online2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="PythonProject" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -220,11 +230,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/28_profundizando_tipo_string" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/32_alineado_cadenas" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/28_profundizando_tipo_string/tipo_str.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/32_alineado_cadenas/leer_contenido_online2.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -233,7 +243,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="zona_fit_pruebas" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="literales_byte" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="PythonProject" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -242,11 +252,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/26_zona_fit" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/31_manejo_literales" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/26_zona_fit/zona_fit_pruebas.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/31_manejo_literales/literales_byte.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -257,11 +267,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.tipo_str" />
-        <item itemvalue="Python.documentacion" />
-        <item itemvalue="Python.not_a_number" />
-        <item itemvalue="Python.sistemas_numeracion" />
-        <item itemvalue="Python.zona_fit_pruebas" />
+        <item itemvalue="Python.leer_contenido_online2" />
+        <item itemvalue="Python.leer_contenido_online1" />
+        <item itemvalue="Python.leer_contenido_online" />
+        <item itemvalue="Python.literales_byte" />
+        <item itemvalue="Python.caracteres_inicode" />
       </list>
     </recent_temporary>
   </component>
