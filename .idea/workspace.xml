@@ -6,11 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="c76ea098-6212-4f27-b5c3-a5f5e2be9784" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/28_profundizando_tipo_string/tipo_str.py" beforeDir="false" afterPath="$PROJECT_DIR$/28_profundizando_tipo_string/tipo_str.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/29_profundizando_cadenas/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/29_profundizando_cadenas/cadenas.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/30_profundizando_clase_str/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/30_profundizando_clase_str/cadenas_d.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/31_manejo_literales/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/31_manejo_literales/literales_byte.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/32_alineado_cadenas/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/32_alineado_cadenas/leer_contenido_online.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/33_uso_repl/main.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/34_unpaking/main.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,6 +71,7 @@
     "Python.FiguraGeometrica.executor": "Run",
     "Python.Sobrecarga_op.executor": "Run",
     "Python.actualizar.executor": "Run",
+    "Python.alineado_string.executor": "Run",
     "Python.cadenas.executor": "Run",
     "Python.cadenas_d.executor": "Run",
     "Python.caracteres_inicode.executor": "Run",
@@ -122,6 +120,7 @@
     "Python.manejo_de_errores.executor": "Run",
     "Python.menu.executor": "Run",
     "Python.not_a_number.executor": "Run",
+    "Python.repl.executor": "Run",
     "Python.seleccionar.executor": "Run",
     "Python.select.executor": "Run",
     "Python.sistemas_numeracion.executor": "Run",
@@ -129,9 +128,11 @@
     "Python.test_catalogo_peliculas.executor": "Run",
     "Python.test_figura_geometrica.executor": "Run",
     "Python.tipo_str.executor": "Run",
+    "Python.unpaking.executor": "Run",
     "Python.uso_de_with_00.executor": "Run",
     "Python.zona_fit_pruebas.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "main",
     "last_opened_file_path": "/home/prestaa/Workspace/python/32_alineado_cadenas",
@@ -154,30 +155,8 @@
       <recent name="$PROJECT_DIR$/23_creacion_capa_datos/modelos" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.leer_contenido_online2">
-    <configuration name="caracteres_inicode" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="PythonProject" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/30_profundizando_clase_str" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/30_profundizando_clase_str/caracteres_inicode.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="leer_contenido_online" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.unpaking">
+    <configuration name="alineado_string" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="PythonProject" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -190,7 +169,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/32_alineado_cadenas/leer_contenido_online.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/32_alineado_cadenas/alineado_string.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -243,7 +222,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="literales_byte" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="repl" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="PythonProject" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -252,11 +231,33 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/31_manejo_literales" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/33_uso_repl" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/31_manejo_literales/literales_byte.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/33_uso_repl/repl.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="unpaking" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="PythonProject" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/34_unpaking" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/34_unpaking/unpaking.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -267,11 +268,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.unpaking" />
+        <item itemvalue="Python.repl" />
+        <item itemvalue="Python.alineado_string" />
         <item itemvalue="Python.leer_contenido_online2" />
         <item itemvalue="Python.leer_contenido_online1" />
-        <item itemvalue="Python.leer_contenido_online" />
-        <item itemvalue="Python.literales_byte" />
-        <item itemvalue="Python.caracteres_inicode" />
       </list>
     </recent_temporary>
   </component>
