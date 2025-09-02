@@ -1,0 +1,81 @@
+No resuelto pre2
+
+Lo que esta bien:
+schema.org se valida **OK** imagen61
+Se verifica que en pre2 se corrigió la hora adelantada AABE Inmuebles **OK**
+Se verifica que en pre2 se corrigió la hora adelantada AABE Muebles **OK**
+Se verifica que en pre2 se corrigió la hora adelantada AABE Concesiones **OK**
+
+**ERROR** lo que esta mal es que hay que darle un formato ISO a la fecha
+ejemplos:
+
+antes: (mal)
+<dd class="inline-pair fw-medium m-r-1" itemprop="validThrough" content="Jueves, 08/06/2017 13:01 hs">
+    <span aria-hidden="true" class="fa icono-arg-calendario-2 fa-1x icon-success p-r-0"></span>
+    Jueves, 08/06/2017
+</dd>
+
+
+ahora
+Inmuebles: (bien)
+<dd class="inline-pair fw-medium m-r-1" itemprop="validThrough" content="2017-06-08T13:01:00">
+    <span aria-hidden="true" class="fa icono-arg-calendario-2 fa-1x icon-success p-r-0"></span>
+    Jueves, 08/06/2017
+</dd>
+<dd class="inline-pair fw-medium m-r-1" itemprop="validThrough" content="2025-07-07T12:51:00">
+<span aria-hidden="true" class="fa icono-arg-calendario-2 fa-1x icon-success p-r-0"></span>
+Lunes 07/07/2025
+</dd>
+Muebles
+<dd class="inline-pair fw-medium m-r-1" itemprop="validThrough" content="2025-07-07T12:51:00">
+<span aria-hidden="true" class="fa icono-arg-calendario-2 fa-1x icon-success p-r-0"></span>
+Lunes 07/07/2025
+</dd>
+Concesiones
+<dd class="inline-pair fw-medium m-r-1" itemprop="validThrough" content="2025-07-07T12:45:00">
+<span aria-hidden="true" class="fa icono-arg-calendario-2 fa-1x icon-success p-r-0"></span>
+Lunes 07/07/2025
+</dd>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<dd class="inline-pair fw-medium m-r-1" itemprop="validThrough" content="2025-12-31T12:00:00">
+<span aria-hidden="true" class="fa icono-arg-calendario-2 fa-1x icon-success p-r-0"></span>
+Miércoles 31/12/2025
+</dd>
+Muebles: (mal)
+<dd class="inline-pair fw-medium m-r-1" itemprop="validThrough" content="Martes, 08/08/2028 18:18 hs">
+    <span aria-hidden="true" class="fa icono-arg-calendario-2 fa-1x icon-success p-r-0"></span>
+    Martes, 08/08/2028
+</dd>
+
+Conseciones: (mal)
+<dd class="inline-pair fw-medium m-r-1" itemprop="validThrough" content="Miércoles, 02/12/2026 02:06 hs">
+    <span aria-hidden="true" class="fa icono-arg-calendario-2 fa-1x icon-success p-r-0"></span>
+    Miércoles, 02/12/2026
+</dd>
+
